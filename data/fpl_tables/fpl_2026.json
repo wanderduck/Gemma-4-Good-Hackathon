@@ -1,0 +1,7 @@
+{
+  "year": 2026,
+  "source": "HHS Poverty Guidelines (48 contiguous states + DC)",
+  "base_amount": 15650,
+  "per_additional_person": 5380,
+  "note": "Alaska and Hawaii have higher thresholds (not implemented for MN focus)"
+}
