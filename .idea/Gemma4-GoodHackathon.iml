@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/models" />
+      <excludeFolder url="file://$MODULE_DIR$/.claude/worktrees/navigator-implementation/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="uv (Gemma4-GoodHackathon)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
