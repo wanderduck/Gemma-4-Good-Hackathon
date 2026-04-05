@@ -24,19 +24,43 @@ uv sync --extra navigator  # Install navigator-specific deps (chromadb, gradio, 
 uv add <package>           # Add a dependency
 jupyter lab                # Launch JupyterLab
 uv run pytest tests/ -v    # Run test suite (uv run required for correct env)
-uv run python src/app.py   # Launch Gradio UI
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python uv run python src/app.py  # Launch Gradio UI (http://localhost:7860)
 ```
 
 **Important:** Always prefix Python/pytest commands with `uv run` to use the correct virtualenv.
 
+### Ollama
+
+```bash
+ollama pull gemma3:4b              # Pull model for local testing
+ollama list                        # Check installed models
+```
+
+Model tag configured in `src/navigator/config.py` → `OLLAMA_MODEL`. Currently `gemma3:4b` (placeholder until Gemma 4 E4B GGUF is available).
+
+### Scraping & Training
+
+```bash
+PYTHONPATH=src uv run python scripts/scrape_dhs_manual.py     # Scrape DHS Combined Manual
+PYTHONPATH=src uv run python scripts/scrape_county_pages.py   # Scrape 5 county + 3 CAP agency sites
+PYTHONPATH=src uv run python scripts/download_sam_gov.py      # Download SAM.gov assistance listings (needs SAM_GOV_API_KEY in .env)
+PYTHONPATH=src PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python uv run python scripts/ingest_all.py  # Ingest scraped data into ChromaDB
+```
+
+Training scripts run on Kaggle/Colab only (need unsloth, trl, transformers, datasets):
+```bash
+python training/train_unsloth.py --dataset data/training/combined.jsonl  # QLoRA fine-tune
+python training/export_gguf.py --model training/output/final             # Export to GGUF for Ollama
+```
+
 ## Project Status
 
-- **Active idea: Plain Language Government Navigator** — benefits eligibility navigator for MN
+- **Plain Language Government Navigator** — implementation complete, 75 tests passing
   - Design spec: `docs/superpowers/specs/2026-04-05-plain-language-government-navigator-design.md`
   - Implementation plan: `docs/superpowers/plans/2026-04-05-plain-language-government-navigator.md`
-  - Full plan: `docs/ideas/plans/plain_language_government_navigator.md`
   - Architecture: Three-stage pipeline (Intake → Eligibility → Response) with Gemma 4 E4B via Ollama
   - Prize targets: Main + Digital Equity + Safety & Trust + Ollama + Unsloth ($130K ceiling)
+  - Remaining: GGUF model conversion, data scraping, RunPod deployment for live demo
 
 ## Project Structure
 
@@ -76,6 +100,8 @@ Navigator deps are in `[project.optional-dependencies] navigator` to avoid confl
 
 ## Key Technical Notes
 
+- Gradio 6.x: `ChatInterface` examples must be lists-of-lists when `additional_inputs` used; `theme` passed to `launch()` not `Blocks()`
+- Ollama must be running (`systemctl start ollama`) before launching the Gradio UI
 - `cuml.accel` is disabled due to RAPIDS cu12 vs system CUDA 13.1 header mismatch; use cuML via direct imports instead
 - The notebook preloads both cu12 and cu13 shared libraries to support TensorFlow and PyTorch simultaneously
 - Plotting uses Plotly (not matplotlib for interactive charts)
