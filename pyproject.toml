@@ -1,0 +1,44 @@
+[project]
+name = "cert-x466-003"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.5.5",
+    "kaggle>=2.0.0",
+    "matplotlib>=3.10.8",
+    "pandas==2.3.3",
+    "python-dotenv==1.2.2",
+    "numpy==2.2.6",
+    "tensorflow[and-cuda]>=2.21.0",
+    "scikit-learn>=1.8.0",
+    "plotly>=6.6.0",
+    "pandas-stubs~=2.3.3",
+    "torch>=2.6.0",
+    "scipy-stubs~=1.17.1",
+    "statsmodels>=0.14.6",
+    "cudf-cu12==26.2.*",
+    "dask-cudf-cu12==26.2.*",
+    "cuml-cu12==26.2.*",
+    "cugraph-cu12==26.2.*",
+    "nx-cugraph-cu12==26.2.*",
+    "cuxfilter-cu12==26.2.*",
+    "cucim-cu12==26.2.*",
+    "pylibraft-cu12==26.2.*",
+    "raft-dask-cu12==26.2.*",
+    "cuvs-cu12==26.2.*",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[[tool.uv.index]]
+name = "nvidia-pypi"
+url = "https://pypi.nvidia.com"
