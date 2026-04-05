@@ -1,5 +1,10 @@
 """Shared test fixtures for Navigator tests."""
 
+import os
+# Must be set before chromadb is imported anywhere — protobuf 4.x + older
+# generated _pb2 files require the pure-Python implementation.
+os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION", "python")
+
 import pytest
 from pathlib import Path
 
