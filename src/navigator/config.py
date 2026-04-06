@@ -1,10 +1,11 @@
 """Configuration for the Navigator application."""
 
+import os
 from pathlib import Path
 
-# Paths
+# Paths — override with NAVIGATOR_DATA_DIR env var for container deployments
 PROJECT_ROOT = Path(__file__).parent.parent.parent
-DATA_DIR = PROJECT_ROOT / "data"
+DATA_DIR = Path(os.environ["NAVIGATOR_DATA_DIR"]) if "NAVIGATOR_DATA_DIR" in os.environ else PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 CHROMA_DIR = DATA_DIR / "chroma_db"

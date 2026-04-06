@@ -32,6 +32,58 @@ def main():
     else:
         logger.warning("No program files found in %s", PROGRAMS_DIR)
 
+    # Ingest DHS Combined Manual sections (raw scraped text)
+    dhs_dir = RAW_DIR / "dhs_combined_manual"
+    if dhs_dir.exists():
+        count = pipeline.ingest_text_dir(
+            dhs_dir, jurisdiction="state:MN", category="eligibility",
+            program="dhs_combined_manual",
+        )
+        logger.info("Ingested %d DHS manual chunks from %s", count, dhs_dir)
+
+    # Ingest county program JSON files
+    county_dir = RAW_DIR / "county_pages"
+    if county_dir.exists():
+        for county_path in sorted(county_dir.iterdir()):
+            programs_file = county_path / "programs.json"
+            if not programs_file.exists():
+                continue
+            county_name = county_path.name
+            programs = json.loads(programs_file.read_text())
+            count = 0
+            for prog in programs:
+                text_parts = []
+                if prog.get("name"):
+                    text_parts.append(prog["name"])
+                if prog.get("description"):
+                    text_parts.append(prog["description"])
+                if prog.get("eligibility"):
+                    text_parts.append(f"Eligibility: {prog['eligibility']}")
+                if prog.get("contact"):
+                    text_parts.append(f"Contact: {prog['contact']}")
+                if prog.get("url"):
+                    text_parts.append(f"More info: {prog['url']}")
+                full_text = "\n\n".join(text_parts)
+                from navigator.rag.ingest import chunk_text, _make_id
+                chunks = chunk_text(full_text)
+                docs = []
+                for i, chunk in enumerate(chunks):
+                    doc_id = _make_id(chunk, prefix=f"{county_name}_{prog.get('name', 'unknown')}")
+                    docs.append({
+                        "id": doc_id,
+                        "text": chunk,
+                        "metadata": {
+                            "jurisdiction": f"county:{county_name}",
+                            "category": prog.get("type", "general"),
+                            "program": prog.get("name", ""),
+                            "source": prog.get("url", county_name),
+                            "chunk_index": i,
+                        },
+                    })
+                pipeline._add_docs(docs)
+                count += len(docs)
+            logger.info("Ingested %d county program chunks from %s", count, county_name)
+
     # Ingest processed text files by jurisdiction
     text_dirs = {
         "federal": PROCESSED_DIR / "federal",
