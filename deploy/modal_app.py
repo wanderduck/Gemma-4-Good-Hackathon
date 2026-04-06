@@ -20,13 +20,14 @@ import modal
 # Image: Ollama + Navigator dependencies on CUDA base
 # ---------------------------------------------------------------------------
 
-ollama_image = (
+navigator_image = (
     modal.Image.from_registry(
         "nvidia/cuda:12.6.3-runtime-ubuntu22.04", add_python="3.13"
     )
     .entrypoint([])
-    # Install Ollama
+    # Install curl + Ollama
     .run_commands(
+        "apt-get update && apt-get install -y curl zstd && rm -rf /var/lib/apt/lists/*",
         "curl -fsSL https://ollama.com/install.sh | sh",
     )
     # Install Navigator dependencies (subset needed for serving)
@@ -39,6 +40,15 @@ ollama_image = (
         "ollama>=0.5.1",
         "pydantic>=2.11.3",
         "httpx>=0.28.1",
+    )
+    # Bake application source into the image
+    .add_local_dir("src", remote_path="/app/src", copy=True)
+    .add_local_dir("data/programs", remote_path="/app/data/programs", copy=True)
+    .add_local_dir(
+        "data/raw/dhs_combined_manual",
+        remote_path="/app/data/raw/dhs_combined_manual",
+        copy=True,
+        ignore=["_temp_*", "_toc_*", "_ch13_*"],
     )
 )
 
@@ -53,11 +63,37 @@ chroma_vol = modal.Volume.from_name(
     "navigator-chroma-db", create_if_missing=True
 )
 
-app = modal.App("plain-language-navigator", image=ollama_image)
+app = modal.App("plain-language-navigator", image=navigator_image)
 
 OLLAMA_MODEL = "gemma3:4b"
 GRADIO_PORT = 7860
 MINUTES = 60
+
+
+def _start_ollama():
+    """Start Ollama server and wait for it to be ready."""
+    import os
+
+    proc = subprocess.Popen(
+        ["ollama", "serve"],
+        env={**os.environ, "OLLAMA_HOST": "0.0.0.0:11434"},
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+
+    import httpx
+    for i in range(60):
+        try:
+            resp = httpx.get("http://localhost:11434/api/tags", timeout=2)
+            if resp.status_code == 200:
+                print(f"Ollama ready after {i+1}s")
+                return proc
+        except Exception:
+            pass
+        time.sleep(1)
+
+    print("WARNING: Ollama may not be ready after 60s")
+    return proc
 
 
 # ---------------------------------------------------------------------------
@@ -72,17 +108,8 @@ MINUTES = 60
         "/root/.ollama": ollama_models_vol,
         "/app/data/chroma_db": chroma_vol,
     },
-    mounts=[
-        modal.Mount.from_local_dir("src", remote_path="/app/src"),
-        modal.Mount.from_local_dir("data/programs", remote_path="/app/data/programs"),
-        modal.Mount.from_local_dir(
-            "data/raw/dhs_combined_manual",
-            remote_path="/app/data/raw/dhs_combined_manual",
-            condition=lambda path: not path.startswith("_"),
-        ),
-    ],
-    allow_concurrent_inputs=10,
 )
+@modal.concurrent(max_inputs=10)
 @modal.web_server(port=GRADIO_PORT, startup_timeout=10 * MINUTES)
 def serve():
     """Start Ollama, pull model if needed, then launch Gradio."""
@@ -98,28 +125,8 @@ def serve():
     # Override config paths for Modal container layout
     os.environ["NAVIGATOR_DATA_DIR"] = "/app/data"
 
-    # Start Ollama server in background
-    print("Starting Ollama server...")
-    ollama_proc = subprocess.Popen(
-        ["ollama", "serve"],
-        env={**os.environ, "OLLAMA_HOST": "0.0.0.0:11434"},
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-    )
-
-    # Wait for Ollama to be ready
-    for i in range(60):
-        try:
-            import httpx
-            resp = httpx.get("http://localhost:11434/api/tags", timeout=2)
-            if resp.status_code == 200:
-                print(f"Ollama ready after {i+1}s")
-                break
-        except Exception:
-            pass
-        time.sleep(1)
-    else:
-        print("WARNING: Ollama may not be ready")
+    # Start Ollama
+    _start_ollama()
 
     # Pull model if not already cached in volume
     print(f"Ensuring model {OLLAMA_MODEL} is available...")
@@ -160,24 +167,7 @@ def pull_model(model_name: str = OLLAMA_MODEL):
     """Pull a model into the persistent volume. Run with:
         modal run deploy/modal_app.py::pull_model
     """
-    import os
-
-    ollama_proc = subprocess.Popen(
-        ["ollama", "serve"],
-        env={**os.environ, "OLLAMA_HOST": "0.0.0.0:11434"},
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-    )
-
-    for i in range(30):
-        try:
-            import httpx
-            resp = httpx.get("http://localhost:11434/api/tags", timeout=2)
-            if resp.status_code == 200:
-                break
-        except Exception:
-            pass
-        time.sleep(1)
+    proc = _start_ollama()
 
     print(f"Pulling {model_name}...")
     result = subprocess.run(
@@ -193,33 +183,50 @@ def pull_model(model_name: str = OLLAMA_MODEL):
 
     ollama_models_vol.commit()
     print(f"Model {model_name} cached in volume.")
-    ollama_proc.terminate()
+    proc.terminate()
 
 
 # ---------------------------------------------------------------------------
 # Utility: upload ChromaDB to volume (run once after local ingestion)
 # ---------------------------------------------------------------------------
 
+chroma_upload_image = (
+    modal.Image.debian_slim(python_version="3.13")
+    .add_local_dir("data/chroma_db", remote_path="/tmp/local_chroma", copy=True)
+)
+
+
 @app.function(
+    image=chroma_upload_image,
     timeout=5 * MINUTES,
     volumes={"/app/data/chroma_db": chroma_vol},
-    mounts=[
-        modal.Mount.from_local_dir("data/chroma_db", remote_path="/tmp/local_chroma"),
-    ],
 )
 def upload_chroma():
     """Upload local ChromaDB to Modal volume. Run with:
         modal run deploy/modal_app.py::upload_chroma
     """
+    import os
     import shutil
 
     print("Copying local ChromaDB to Modal volume...")
     src = "/tmp/local_chroma"
     dst = "/app/data/chroma_db"
 
-    # Clear existing and copy fresh
-    shutil.rmtree(dst, ignore_errors=True)
-    shutil.copytree(src, dst)
+    # Clear existing contents and copy fresh
+    for item in os.listdir(dst):
+        path = os.path.join(dst, item)
+        if os.path.isdir(path):
+            shutil.rmtree(path)
+        else:
+            os.remove(path)
+    # Copy contents into the volume mount point
+    for item in os.listdir(src):
+        s = os.path.join(src, item)
+        d = os.path.join(dst, item)
+        if os.path.isdir(s):
+            shutil.copytree(s, d)
+        else:
+            shutil.copy2(s, d)
 
     chroma_vol.commit()
     print("ChromaDB uploaded to Modal volume.")
