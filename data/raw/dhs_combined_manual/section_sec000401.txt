@@ -1,0 +1,145 @@
+SOURCE: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000401
+SECTION: cm_000401
+TITLE: 0004.01 - EMERGENCY GENERAL ASSISTANCE (EGA)
+========================================================================
+
+EMERGENCY GENERAL ASSISTANCE (EGA)
+
+ISSUE DATE: 03/2026
+
+MFIP, MSA, HSP:
+No provisions.
+
+
+SNAP:
+No provisions. See 0004.04 (Expedited SNAP).
+
+
+
+GA:
+Emergency General Assistance (EGA) meets the emergency needs of eligible individuals, married couples, or families who are in an emergency.
+
+
+To receive EGA, a unit must meet ALL the following conditions:
+
+●
+
+	
+
+Have not received EGA or Emergency Assistance from the County Consolidated Fund within 12 months of the application date for EGA. Anyone in the unit receiving EGA or Emergency Assistance makes the entire unit ineligible for the 12-month period.
+
+
+
+
+
+●
+
+	
+
+Be facing an EMERGENCY in which it is without, or will lose within 30 days after application, a BASIC NEED item. See 0002.05 (Glossary: Assistance Standard…) and 0002.19 (Glossary: Early…). An emergency must require immediate financial assistance. The financial assistance required by the emergency must be temporary and must not exceed 30 days.
+
+
+
+
+
+●
+
+	
+
+Have an emergency that threatens the unit members’ health or safety and meet the written criteria adopted by the county agency.
+
+
+
+
+
+●
+
+	
+
+The applicant and family, if any, must have a current net income under 200% of the federal poverty guidelines for the previous year. See 0016.18.01 (200 Percent of Federal Poverty Guidelines).
+
+
+
+
+
+●
+
+	
+
+At least 1 person in the EGA unit must meet GA or HSP citizenship or immigration status requirements listed under 0031 (Non-Citizen Guidance).
+
+
+
+
+●
+
+	
+
+For a single person, a childless married couple, or a family, at least 1 person must have lived in Minnesota for at least 30 days. See 0011.06 (State Residence).
+
+
+
+
+●
+
+	
+
+The unit must not currently be eligible for or receiving MFIP.
+
+
+
+
+●
+
+	
+
+Disqualification from GA or MFIP must not have caused the emergency.
+
+
+
+
+●
+
+	
+
+Eligibility may not exceed 30 days.
+
+
+
+
+●
+
+	
+
+Aid is subject to the availability of state and/or county funds.
+
+
+
+
+●
+
+	
+
+The unit must meet any additional criteria adopted by the county agency.
+
+Offer EGA information and the application on the same day a person inquires about the program. If an emergency is imminent or already present, offer the interview on the same day the unit submits the application. If there is emergent and ongoing need, process the application as soon as possible for ongoing GA eligibility. If there will be a significant delay, EGA may be used for up to 30 days until GA eligibility is determined.
+
+Determine EGA eligibility back to the date of the emergency if the agency receives the application pages within 30 days of the emergency. The unit must be EGA eligible for the county to claim state aid.
+
+Mandatory verifications for GA and EGA are the same. See 0010.18 (Mandatory Verifications) and 0010.18.01 (Mandatory Verifications – Cash Assistance). Use available documentary evidence, collateral contacts or, if necessary, signed statements from the client.
+
+An interim assistance agreement is not required for EGA. Federal rules do not allow states and county agencies to seek EGA reimbursement from RSDI and SSI back payments.
+
+For EGA overpayments, follow GA overpayment provisions. See 0025 (Benefit Adjustments and Recovery).
+
+For EGA appeals, follow GA appeal provisions. See 0027 (Appeals).
+
+PREVIOUS REVISIONS
+
+Date	Notes
+07/2024	removes link to 0011.03 (Citizenship and Immigration Status) and replaces with 0031 (Non-Citizen Guidance).
+11/2023	title change, updates to links throughout, and consolidating EGA information into this section.
+12/2014	Removed WB.  This program was suspended 12/1/14.
+05/2013	update cross-references to 0004.04 (Emergency Aid Eligibility - SNAP/Expedited Food). No policy was changed.
+
+Report this page

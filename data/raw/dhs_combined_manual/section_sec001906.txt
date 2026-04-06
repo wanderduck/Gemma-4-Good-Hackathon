@@ -1,0 +1,283 @@
+SOURCE: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001906
+SECTION: cm_001906
+TITLE: 0019.06 - GROSS INCOME LIMITS
+========================================================================
+
+GROSS INCOME LIMITS
+
+ISSUE DATE: 03/2026
+
+MFIP, GA, HSP:
+Use the 130% Federal Poverty Guidelines listed below when determining the income amount for sponsors and their household size. See 0031.33 (Sponsor Deeming).
+
+
+SNAP:
+For information about the Gross Income Test for elderly/disabled units, see 0019 (Gross Income Test).
+
+The 130% Federal Poverty Guidelines (FPG) must be used in the following situations:
+
+●
+
+	
+
+As the gross income test for non-categorically eligible units WITHOUT an eligible elderly or disabled unit member. To determine SNAP categorical eligibility/ineligibility, see 0013.06 (SNAP Categorical Eligibility/Ineligibility).
+
+
+
+
+●
+
+	
+
+As the income threshold when determining if a sponsored non-citizen meets the indigent exemption criteria to be exempt from sponsor deeming. See 0031.33 (Sponsor Deeming).
+
+
+
+
+●
+
+	
+
+As the gross monthly income limit deduction for the sponsor’s unit size when calculating sponsor income deeming for a sponsored non-citizen. See 0031.33 (Sponsor Deeming).
+
+
+
+
+●
+
+	
+
+Six-Month Reporters must report when their gross income exceeds 130% FPG for the unit size. See 0007.03.02 (Six-Month Reporting) for more information.
+
+
+
+
+UNIT SIZE
+
+	
+
+130% FPG Income Limits
+
+
+
+
+1
+
+	
+
+$1,696
+
+
+
+
+2
+
+	
+
+$2,292
+
+
+
+
+3
+
+	
+
+$2,888
+
+
+
+
+4
+
+	
+
+$3,483
+
+
+
+
+5
+
+	
+
+$4,079
+
+
+
+
+6
+
+	
+
+$4,675
+
+
+
+
+7
+
+	
+
+$5,271
+
+
+
+
+8
+
+	
+
+$5,867
+
+
+
+
+Each add'l member
+
+	
+
+
+$596
+
+The 200% FPG must be used as the gross income test for Broad Based Categorically Eligible (BBCE) units. To determine SNAP categorical eligibility/ineligibility, see 0013.06 (SNAP Categorical Eligibility/Ineligibility).
+
+
+Use the gross income limits below for categorical eligible SNAP units.
+
+UNIT SIZE
+
+	
+
+200% FPG Income Limits
+
+
+
+
+1
+
+	
+
+$2,609
+
+
+
+
+2
+
+	
+
+$3,525
+
+
+
+
+3
+
+	
+
+$4,442
+
+
+
+
+4
+
+	
+
+$5,359
+
+
+
+
+5
+
+	
+
+$6,275
+
+
+
+
+6
+
+	
+
+$7,192
+
+
+
+
+7
+
+	
+
+$8,109
+
+
+
+
+8
+
+	
+
+$9,025
+
+
+
+
+9
+
+	
+
+$9,942
+
+
+
+
+10
+
+	
+
+$10,859
+
+
+
+
+Each add'l member
+
+	
+
+
+$917
+
+NOTE: Units with an eligible elderly or disabled unit member with income above 200% FPG are non-categorically eligible and must meet the 100% net income test. See 0020.12 (SNAP Assistance Standards).
+
+MSA:
+The gross income limit is 300% of the SSI Federal Benefit Rate (FBR) for an individual. See 0029.06.03 (Supplemental Security Income Program) for the current rate.
+
+If a married couple lives together and both partners apply and have a basis of eligibility, use their combined gross income. Their combined gross income must not exceed 600% of the SSI FBR for an individual.
+
+
+PREVIOUS REVISIONS
+
+Date	Notes
+10/2025	in SNAP, updates made to the income limits for 130% and 200% of Federal Poverty Guidelines.
+05/2025	in SNAP, updates language for clarification due to substantial lottery and gambling winnings policy.
+10/2024	in SNAP, updates made to the income limits for 130% and 200% of Federal Poverty Guidelines.
+08/2024	clarifies that cash programs align with SNAP regarding sponsor deeming.
+07/2024	removes link to 0016.21.03 (Income of Sponsors of LPRs with I-864) and replaces with 0031.33 (Sponsor Deeming).
+10/2023	in SNAP updates the gross income limits for non-categorical and categorical eligible units due to COLA.
+10/2022	in SNAP updated 130% income limit due to annual COLA
+08/2022	in SNAP the gross income limits below for categorical eligible SNAP units due to increasing the FPG to 200%.
+10/2021	in SNAP updates the gross income limits for non-categorical and categorical eligible units to reflect COLA changes.
+10/2020	in SNAP updates the gross income limits for non-categorical and categorical eligible units.
+10/2019	in SNAP updates the gross income limits for non-categorical and categorical eligible units.
+10/2018	in SNAP updates gross income limits for non-categorical and categorical eligible units due to (FY) 2019 Cost-of-Living Adjustments (COLA) to SNAP.
+10/2017	in SNAP updates the gross income limits for non-categorical and categorical eligible units due to the (FY) 2018 Cost-of-Living Adjustments (COLA) to the Supplemental Nutrition Assistance Program (SNAP).
+10/2016	in SNAP updates the gross income limits for non-categorical and categorical eligible units.
+10/2015	in SNAP updates the gross income limits for non-categorical and categorical eligible units.
+10/2014	in SNAP updates the gross income limits for non-categorical and categorical eligible units.
+04/2014	update cross-references to 0016.21.03 (Income of Sponsors of LPRs With I-864) due to section title change. No policy was changed.
+
+Report this page

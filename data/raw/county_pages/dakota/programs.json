@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Public Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-554-5748, 651-437-3191, 800-247-1056; Email: eeadocs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Jobs & Volunteering",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/Pages/default.aspx",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Homesteads & Property Tax Relief Programs",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHomesteads & Property Tax Relief Programs",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4200, 651-438-4469, 651-438-4576, 651-437-3191, 800-247-1056; Email: assessing.services@co.dakota.mn.us, on@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HomeProperty/TaxPrograms/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Homebuyer & Homeowner Programs",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHomebuyer & Homeowner Programs",
+    "eligibility": "",
+    "contact": "Phone: 651-675-4400, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HomeProperty/BuyerPrograms/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Maps & Mapping Services",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nMaps & Mapping Services",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7081, 651-437-3191, 800-247-1056; Email: gis@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HomeProperty/MappingServices/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Crime Victim & Witness Support",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nCrime Victim & Witness Support",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4471, 651-437-3191, 800-247-1056; Email: attorney@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/LawJustice/WitnessSupport/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Probation & Community Programs",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nProbation & Community Programs",
+    "eligibility": "",
+    "contact": "Phone: 651-438-8288, 651-437-3191, 800-247-1056; Email: dccc@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/LawJustice/RestorationPrograms/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Healthy Living",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHealthy Living",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7500, 651-437-3191, 800-247-1056; Email: public.health@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/HealthyLiving/Pages/default.aspx",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Employment Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJob Search Assistance",
+    "eligibility": "",
+    "contact": "Phone: 952-703-3100, 651-554-5955, 952-496-8310, 651-554-6875, 651-554-5670; Email: careerforce.burnsville@state.mn.us, careerforce.westsaintpaul@state.mn.us, careerforce.shakopee@state.mn.us; Address: 375 Burnsville, MN 55337 952-703-3100​ \n CareerForce West St",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/FindJob/Pages/default.aspx",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Parenting Help",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nParenting Help",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6100, 952-891-7400, 651-554-6000, 651-438-4438, 651-437-3191; Email: public.health@co.dakota.mn.us, attorney@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/Parenting/Pages/default.aspx",
+    "type": "housing",
+    "source": "dakota"
+  },
+  {
+    "name": "Public Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-554-5748, 651-437-3191, 800-247-1056; Email: eeadocs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Adult Protection",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nAdult Protection",
+    "eligibility": "",
+    "contact": "Phone: 1-844-880-1574, 952-891-7171, 651-554-6000, 651-437-3191, 800-247-1056; Email: social.services@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/AdultProtection/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Child Care",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nChild Care",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7400, 651-437-3191, 800-247-1056; Email: childcare@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/ChildCare/Pages/default.aspx",
+    "type": "childcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Child Protection",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nChild Protection",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7459, 952-891-7171, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/ChildProtection/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Child Support",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nChild Support",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-554-5936, 651-437-3191, 800-247-1056; Email: childsupport@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/ChildSupport/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Adoption",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nAdoption",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7400, 651-554-6000, 952-891-7473, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/Adoption/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Chemical Health & Substance Use",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nChemical Health",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6424, 651-554-6349, 952-891-7500, 952-891-7459, 651-437-3191; Email: social.services@co.dakota.mn.us, public.health@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/ChemicalHealth/Pages/default.aspx",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Foster Care",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nFoster Care",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7400, 651-437-3191, 800-247-1056; Email: adultfostercare@co.dakota.mn.us, fostercare@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/FosterCare/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Mental Health",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nMental Health",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6424, 952-891-7459, 952-891-7171, 651-554-6336, 651-554-5751; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/MentalHealth/Pages/default.aspx",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Aging & Disability Services",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nAging & Disability Services",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6336, 651-437-3191, 800-247-1056; Email: clsintake@co.dakota.mn.us, clsintake@co.dakota; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/Disabilities/Pages/default.aspx",
+    "type": "senior_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Emergency Preparedness",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nEmergency Preparedness",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4322, 952-891-7500, 651-437-3191, 800-247-1056; Email: emergencymanagement@co.dakota.mn.us, public.health@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/HandlingEmergencies/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Health Services",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHealth Services",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Email: public.health@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/HealthServices/Pages/default.aspx",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Veterans Services",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nVeterans Services",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5601, 651-437-3191, 800-247-1056; Email: vets@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/VeteransServices/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Environmental Education Resources",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nEnvironmental Education Resources",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Email: environ@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Environment/EducationResources/Pages/default.aspx",
+    "type": "mental_health",
+    "source": "dakota"
+  },
+  {
+    "name": "Water Resources",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nWater Resources",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: environ@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Environment/WaterResources/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Report an Environmental Concern",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nReport an Environmental Concern",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7557, 651-437-3191, 800-247-1056; Email: environ@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Environment/ReportHealthConcern/Pages/default.aspx",
+    "type": "mental_health",
+    "source": "dakota"
+  },
+  {
+    "name": "Current Road Construction",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nCurrent Road Construction",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/CurrentConstruction/Pages/default.aspx",
+    "type": "housing",
+    "source": "dakota"
+  },
+  {
+    "name": "Planned Road Construction",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPlanned Road Construction",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/PlannedConstruction/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Road Safety",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nRoad Safety",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/RoadSafety/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Transportation Studies",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nTransportation Studies",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/TransportationStudies/Pages",
+    "type": "transportation",
+    "source": "dakota"
+  },
+  {
+    "name": "Traffic Counts",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nTraffic Counts",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/Traffic/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Getting Around the County",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nGetting Around the County",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6956, 651-437-3191, 800-247-1056; Email: godakota@co.dakota.mn.us, traveltraining@co.dakota.mn.us, robyn.bernardy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/GettingAround",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Highways & Your Property",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHighways & Your Property",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/HighwayPolicies/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Transit",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nTransit",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6956, 952-891-7000, 651-437-3191, 800-247-1056; Email: godakota@co.dak, transit@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/Transit/Pages/default.aspx",
+    "type": "transportation",
+    "source": "dakota"
+  },
+  {
+    "name": "Contact Transportation",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nContact Transportation",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/Contact/Pages/default.aspx",
+    "type": "transportation",
+    "source": "dakota"
+  },
+  {
+    "name": "Transportation Planning",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nTransportation Planning",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/PlanningPrograms/Pages/default.aspx",
+    "type": "transportation",
+    "source": "dakota"
+  },
+  {
+    "name": "Sales & Use Tax",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nSales & Use Tax",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7000, 651-437-3191, 800-247-1056; Email: hwy@co.dak; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Transportation/SalesUseTax/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Jobs & Volunteering",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Pages - All Documents",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nThis system library was created by the Publishing feature to store pages that are created in this site.",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/_layouts/15/listform.aspx?ListId=%7BC8AFB520%2DB145%2D45B2%2DA9EA%2DB10C51C4620A%7D&PageType=0",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Our Values",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/Values/Pages/default.aspx",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Benefits",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/Benefits",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Diversity & Inclusion at Dakota County",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/Diversity",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Hiring Process",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/HiringProcess",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Volunteering & Internship Opportunities",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nJobs & Volunteering",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4435, 651-438-4635, 651-437-3191, 800-247-1056; Email: jobs@co.dakota.mn.us, garrett.zaffke@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Government/Jobs/Volunteering",
+    "type": "employment",
+    "source": "dakota"
+  },
+  {
+    "name": "Service & License Centers",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nService & License Center",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4312, 651-554-6531, 952-891-7144, 952-891-7850, 952-891-7878; Email: dakotacountyvitals@co.dakota.mn.us, nscservicedesk@co.dakota.mn.us, wscservicedesk1@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Permits/SLC/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Northern Service Center",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nMaps & Directions",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/MapDirections/Pages/northern-service-center.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Western Service Center",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nMaps & Directions",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/MapDirections/Pages/western-service-center.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Service of Legal Documents",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nService of Legal Documents",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4700, 651-438-4438, 651-437-3191, 800-247-1056; Email: sheriff@co.dakota.mn.us, attorney@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/LawJustice/CourtOrders/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Fingerprinting Services",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nFingerprinting Services",
+    "eligibility": "",
+    "contact": "Phone: 651-438-4700, 651-438-4805, 651-437-3191, 800-247-1056; Email: sheriff@co.dakota.mn.us, ting@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/LawJustice/Fingerprinting/Pages/default.aspx",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Environmental Reports & Studies",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nEnvironmental Reports & Studies",
+    "eligibility": "",
+    "contact": "Phone: 952-891-7557, 651-437-3191, 800-247-1056; Email: environ@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/Environment/ReportsStudies/Pages/default.aspx",
+    "type": "mental_health",
+    "source": "dakota"
+  },
+  {
+    "name": "Health & Family",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHealth & Family",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Pages - All Documents",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nThis system library was created by the Publishing feature to store pages that are created in this site.",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/_layouts/15/listform.aspx?ListId=%7B8A747CA6%2DACCE%2D4CEA%2D86F5%2D56EE1229EEF9%7D&PageType=0",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Health & Family",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nHealth & Family",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/Pages/default.aspx",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Pages - All Documents",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nThis system library was created by the Publishing feature to store pages that are created in this site.",
+    "eligibility": "",
+    "contact": "Phone: 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/_layouts/15/listform.aspx?ListId=%7B77DFC038%2D308A%2D41C4%2DA234%2D424C37E0FCB5%7D&PageType=0&RootFolder=%2FHealthFamily",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Food Programs",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 1-800-247-1056, 651-554-5748, 866-844-3663, 651-401-1411; Email: eeadocs@co.dakota.mn.us, program.intake@usda.gov; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Food",
+    "type": "food_assistance",
+    "source": "dakota"
+  },
+  {
+    "name": "Health Care Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Medical",
+    "type": "healthcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Cash Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Cash",
+    "type": "cash_assistance",
+    "source": "dakota"
+  },
+  {
+    "name": "Emergency Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-437-3191, 800-247-1056; Address: 14955 Galaxie Ave., Apple Valley Northern Service Center  1 Mendota Road W",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Emergency",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Housing Services",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5751, 651-437-3191, 800-247-1056; Email: e@co.dakota.mn.us, housingresource@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Housing",
+    "type": "housing",
+    "source": "dakota"
+  },
+  {
+    "name": "Child Care Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 1-888-291-9811, 1-888-450-2773, 1-507-287-2020, 651-322-3500; Email: childcare@co.dakota.mn.us, iders.dcyf@state.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/ChildCare",
+    "type": "childcare",
+    "source": "dakota"
+  },
+  {
+    "name": "Burial Assistance",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-554-5748, 651-437-3191, 800-247-1056; Email: burials@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Burial",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Report Fraud",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-431-3968, 1-800-627-9977, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Fraud",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Overpayment Collections",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-6577, 651-437-3191, 800-247-1056; Email: paop@co.dakota.mn.us; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/OverpaymentCollections",
+    "type": "disability_services",
+    "source": "dakota"
+  },
+  {
+    "name": "Forms",
+    "description": "Skip to main content\nTurn on more accessible mode\nTurn off more accessible mode\nTurn off Animations\nTurn on Animations\nThere are no items to show in this view.\nPublic Assistance",
+    "eligibility": "",
+    "contact": "Phone: 651-554-5611, 651-437-3191, 800-247-1056; Address: 1590 Highway 55 \n Hastings, MN 55033 \n Ph:  651-437-3191 \n Toll free:  800-247-1",
+    "url": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance/Forms",
+    "type": "disability_services",
+    "source": "dakota"
+  }
+]

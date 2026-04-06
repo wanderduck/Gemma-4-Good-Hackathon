@@ -1,0 +1,129 @@
+SOURCE: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002012
+SECTION: cm_002012
+TITLE: 0020.12 - SNAP ASSISTANCE STANDARDS
+========================================================================
+
+SNAP ASSISTANCE STANDARDS
+
+ISSUE DATE: 03/2026
+
+MFIP, MSA, GA, HSP:
+No provisions.
+
+
+SNAP:
+Determine the proper assistance standard based on the size of the unit. When determining unit size, use the number of people in the unit in the payment month. See 0014 (Assistance Units). Use the table below to determine the net income limit for the unit. Also see 0019.06 (Gross Income Limits).
+
+Non-categorically eligible units with an eligible elderly or disabled unit member, must have enough deductions to be at or below the 100% FPG limits below. This includes units with an eligible elderly or disabled unit member with income above 200% FPG. For the 200% FPG table, see 0019.06 (Gross Income Limits).
+
+
+UNIT SIZE
+
+	
+
+ASSISTANCE STANDARD (100% of Federal Poverty Guidelines (FPG))
+
+
+
+
+1
+
+	
+
+$1,305
+
+
+
+
+2
+
+	
+
+$1,763
+
+
+
+
+3
+
+	
+
+$2,221
+
+
+
+
+4
+
+	
+
+$2,680
+
+
+
+
+5
+
+	
+
+$3,138
+
+
+
+
+6
+
+	
+
+$3,596
+
+
+
+
+7
+
+	
+
+$4,055
+
+
+
+
+8
+
+	
+
+$4,513
+
+
+
+
+Each add'l member
+
+	
+
+$459
+
+
+To determine how to calculate the benefit level, see 0022.12.01 (How to Calculate Benefit Level - SNAP/MSA/GRH).
+
+PREVIOUS REVISIONS
+
+Date	Notes
+10/2025	in SNAP, updates made to the Monthly Assistance Standards.
+05/2025	in SNAP, updates language for clarification due to substantial lottery and gambling winnings policy.
+10/2024	in SNAP updates made to the Monthly Assistance Standards.
+10/2023	in SNAP updates the Monthly Assistance Standards.
+10/2022	in SNAP updates gross income limit amounts due to annual COLA
+08/2022	in SNAP updates gross income limits for units with at least 1 elderly and/or disabled member with income above 200 % of FPG.
+10/2021	in SNAP updates the Assistance Standards to reflect COLA changes.
+10/2020	in SNAP updates the Assistance Standards.
+10/2019	in SNAP updates the Assistance Standards.
+10/2018	in SNAP updates Assistance Standards due to (FY) 2019 Cost-of-Living Adjustments (COLA) to SNAP.
+10/2017	in SNAP updates the Assistance Standards due to the (FY) 2018 Cost-of-Living Adjustments (COLA) to the Supplemental Nutrition Assistance Program (SNAP).
+10/2016	in SNAP updates the Assistance Standards.
+10/2015	in SNAP updates the Assistance Standards.
+10/2014	in SNAP updates the Assistance Standards.
+10/2013	in SNAP updates the Assistance Standards.
+
+Report this page

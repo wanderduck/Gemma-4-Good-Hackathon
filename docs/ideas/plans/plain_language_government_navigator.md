@@ -2,7 +2,7 @@
 
 ## The Problem
 
-Government benefits in the United States are a labyrinth. Across federal, state, and county levels, dozens of programs exist to help people in crisis — but finding and understanding them requires navigating bureaucratic jargon, multi-step eligibility questionnaires, and jurisdictional complexity that defeats even motivated applicants.
+Government benefits in the United States are a labyrinth. Across federal, state, county, and city levels, dozens of programs exist to help people in crisis — but finding and understanding them requires navigating bureaucratic jargon, multi-step eligibility questionnaires, and jurisdictional complexity that defeats even motivated applicants.
 
 The numbers tell the story:
 - **26 million Americans** eligible for SNAP don't receive it

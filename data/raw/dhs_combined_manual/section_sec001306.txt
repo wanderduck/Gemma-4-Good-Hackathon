@@ -1,0 +1,217 @@
+SOURCE: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001306
+SECTION: cm_001306
+TITLE: 0013.06 - SNAP CATEGORICAL ELIGIBILITY/INELIGIBILITY
+========================================================================
+
+SNAP CATEGORICAL ELIGIBILITY/INELIGIBILITY
+
+ISSUE DATE: 03/2026
+
+MFIP, MSA, HSP:
+No provisions.
+
+
+SNAP:
+There are two categories of Categorical Eligibility.
+
+
+1. Categorically Eligible (CE):
+
+SNAP Categorical Eligibility means a unit has already met the gross income test, net income test, residency test, and/or asset test of another means-tested program and are now exempt from these tests for SNAP eligibility.
+
+Units composed entirely of people who receive GA, MSA, or SSI meet the criteria of CE, including units that:
+
+
+●
+
+	
+
+Have been approved for GA, MSA, SSI but have not yet received payment.
+
+
+
+
+
+●
+
+	
+
+Their GA, MSA, or SSI payments have been suspended or are being recouped. People suspended for non-compliance with treatment referral requirements for a drug addiction and/or alcoholic condition are not categorically eligible during the period of suspension.
+
+Additionally, units with at least 1 unit member who is receiving or is eligible to receive benefits and services upon request from 1 of the following programs meets the criteria of CE:
+
+
+●
+
+	
+
+Transition Year Child Care. See 0029.30 (Child Care Assistance).
+
+
+
+
+●
+
+	
+
+Basic Sliding Fee Child Care. Being on the Basic Sliding Fee waiting list does not meet the Categorical Eligibility criteria. See 0029.30 (Child Care Assistance).
+
+
+ 	 
+
+2. Broad-Based Categorically Eligible (BBCE):
+
+Units that meet BBCE are exempt from asset limit and net income tests.
+
+When a unit does not meet the CE criteria above, the unit may be BBCE if they meet the following criteria:
+
+●
+
+	
+
+The unit’s countable gross income is at or below 200% FPG income limits. See 0019.06 (Gross Income Limits).
+
+
+
+
+
+●
+
+	
+
+The unit has been given, or will be given upon approval, the Domestic Violence Information Brochure (DHS-3477). See 0029.36 (Domestic Violence Brochure).
+
+
+Units that do not meet the criteria for CE and exceed the 200% FPG income limits for BBCE, are not eligible for SNAP. However, units with an eligible elderly or disabled member with income above 200% FPG may still be eligible to receive SNAP benefits. See “Units with an Eligible Elderly or Disabled Unit Member” below for more information.
+
+Benefit Level for CE and BBCE Units
+
+CE and BBCE units are not subject to a net income test. Therefore, depending on their income and deductions, units of 1 or 2 people may be eligible for at least the minimum SNAP benefit allotment and units with 3 or more people may be eligible for $0 in SNAP benefits. This does not apply when benefits are prorated or recouped. See 0022.12.01 (How to Calculate Benefit Level – SNAP/MSA/HSP).
+
+NOTE: Being eligible for SNAP at any benefit level (including $0 SNAP benefit cases) allows units to be eligible for other programs including, but not limited to: Energy Assistance, telephone discount programs, subsidized housing, SNAP-Ed, Women, Infants, and Children (WIC) Program, etc.
+
+Units with an Eligible Elderly or Disabled Unit Member
+
+To determine if a unit member meets the disability criteria for this purpose, see category 1 in 0010.18.06 (Verifying Disability/Incapacity – SNAP). For elderly, see 0002.19 (Glossary: Early…).
+
+Units with an eligible elderly or disabled member are not subject to a gross income test.
+
+When a unit with an eligible elderly or disabled unit member does not meet the CE criteria but the unit’s gross income is under 200% FPG for the unit size, the unit may be eligible for BBCE.
+
+When a unit with an eligible elderly or disabled member has gross income over 200% FPG for the unit size, the unit is not eligible for CE or BBCE and is considered non-categorically eligible. These units must meet the following to be SNAP eligible:
+
+●
+
+	
+
+Asset limit. See 0015.81 (Assets – SNAP).
+
+
+
+
+●
+
+	
+
+100% FPG net income limit. See 0020.12 (SNAP Assistance Standards).
+
+For procedural instructions on processing a SNAP case as non-categorically eligible, see TE02.10.104 (Processing Non-Categorically Eligible SNAP Units).
+
+
+
+NON-CATEGORICALLY ELIGIBLE UNITS
+
+The units below are not eligible for CE or BBCE (even if the unit receives the Domestic Violence Brochure) and are considered non-categorically eligible units. These units must meet the non-categorically eligible income and asset tests listed below.
+
+●
+
+	
+
+Units with an ineligible unit member who is disqualified because of a SNAP Intentional Program Violation (IPV). The unit is CE or BBCE ineligible until the IPV disqualification period ends. When the unit member with the IPV leaves the SNAP unit, the remaining unit members may be CE or BBCE eligible.
+
+
+
+
+●
+
+	
+
+Units with an ineligible unit member because they are considered a fleeing felon or parole violator. See 0011.27.06 (Parole Violators) and 0011.27.09 (Fleeing Felons). The unit may be CE or BBCE eligible when the unit member is no longer considered a fleeing felon or parole violator. When the unit member that is considered a fleeing felon or parole violator leaves the SNAP unit, the remaining unit members may be CE or BBCE.
+
+
+
+
+
+●
+
+	
+
+Units that include all the original unit members that closed due to a Substantial Lottery or Gambling Winnings. These units remain ineligible for CE or BBCE unit they are approved for SNAP as non-categorically eligible once. When there is a change in unit composition at reapplication the unit may be CE or BBCE. See 0011.13 (Substantial Lottery or Gambling Winnings).
+
+
+Non-categorically eligible units WITH an eligible elderly or disabled unit member must meet the following tests to be SNAP eligible:
+
+●
+
+	
+
+Asset limit. See 0015.81 (Assets – SNAP).
+
+
+
+
+
+●
+
+	
+
+100% FPG net income limit. See 0020.12 (SNAP Assistance Standards).
+
+NOTE: When the only elderly or disabled person in the unit is the person disqualified because of an IPV or is considered a fleeing felon or parole violator, the unit is no longer considered a unit with an elderly or disabled unit member and must meet the requirements below.
+
+Non-categorically eligible units WITHOUT an eligible elderly or disabled unit member must meet the following tests to be SNAP eligible:
+
+●
+
+	
+
+Asset limit. See 0015.81 (Assets – SNAP).
+
+
+
+
+
+●
+
+	
+
+130% FPG gross income limit. See 0019.06 (Gross Income Limits).
+
+
+
+
+
+●
+
+	
+
+100% FPG net income limit. See 0020.12 (SNAP Assistance Standards).
+
+For procedural instructions on processing a SNAP case as non-categorically eligible, see TE02.10.104 (Processing Non-Categorically Eligible SNAP Units).
+
+
+GA:
+No provisions. See the SNAP provisions above for GA applicants or participants who are also applying for or receiving SNAP.
+
+PREVIOUS REVISIONS
+
+Date	Notes
+05/2025	clarifies throughout due to adding Substantial Lottery or Gambling Winnings.
+05/2024	Removes link to 0011.03.09 and changes it to Chapter 31.
+08/2023	Removes that a drug felon who fails a drug test is ineligible.
+08/2022	in SNAP under ELDERLY/DISABLED UNITS updates gross income limits to 200% FPG.
+12/2016	in SNAP under the sub-heading NON-CATEGORICALLY ELIGIBLE UNITS in the 3rd paragraph deletes the use of the asset test and adds that there is no asset test for non-categorically eligible units who have received Domestic Violence Information (DHS-3477).
+04/2015	Removed WB.  This program was suspended 12/1/14.
+08/2013	update cross-references to 0028.30.06 (Type/Length of SNAP E&T Sanctions). No policy was changed.
+
+Report this page

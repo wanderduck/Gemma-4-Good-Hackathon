@@ -1,0 +1,74 @@
+SOURCE: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002018
+SECTION: cm_002018
+TITLE: 0020.18 - GA ASSISTANCE STANDARDS
+========================================================================
+
+GA ASSISTANCE STANDARDS
+
+ISSUE DATE: 04/2026
+
+MFIP, SNAP, MSA, HSP:
+No provisions.
+
+
+GA:
+People who live in a licensed residential facility (including all residents of the Minnesota Sex Offender Program), receive Housing Support, or receive substance use disorder treatment services are eligible for the GA personal needs allowance. See 0020.24 (Personal Needs Allowance), 0013.15.12 (GA – Basis – Placement in a Facility), and 0013.15.54 (GA Basis – Drug/Alcohol Addiction).
+
+Pay the personal needs allowance to the client or their authorized representative.
+
+Residents of homeless or family violence shelters, and people with drug or alcohol addiction who live in the community and are not receiving substance use disorder treatment services, are eligible for the full GA basic needs standards. See 0013.15.54 (GA Basis – Drug/Alcohol Addiction).
+
+All other GA recipients are eligible for the full GA basic needs standard:
+
+ELIGIBLE PEOPLE
+
+	
+
+MONTHLY STANDARD
+
+
+
+
+One adult living alone
+
+	
+
+$360.50
+
+
+
+
+One adult living with parent(s) or an ineligible spouse
+
+	
+
+$360.50
+
+
+
+
+Minor or emancipated child not living with parent, stepparent, or legal custodian
+
+	
+
+$360.50
+
+
+
+
+Married couple with no children
+
+	
+
+Each eligible unit member receives $360.50
+
+PREVIOUS REVISIONS
+
+Date	Notes
+03/2026	Manuals Moratorium - removes DWP language for the DWP repeal, reviews DHS language, updates language of GRH to HSP, reinserts bold.
+10/2025	The assistance standard for GA recipients living in the community increases to $360.50 effective 10/1/2025.
+10/2024	The assistance standard for GA recipients living in the community increases to $350 effective 10/1/2024. This revision also simplifies and clarifies the language used to identify who is eligible for a personal needs allowance instead of the community standard.
+12/2014	Removed WB.  This program was suspended 12/1/14.
+09/2012	update Food Support and FS to Supplemental Nutrition Assistance Program (SNAP) and FSET to SNAP E&T throughout. No policy was changed.
+
+Report this page

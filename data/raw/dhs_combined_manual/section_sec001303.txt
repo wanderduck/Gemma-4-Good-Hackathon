@@ -1,0 +1,67 @@
+SOURCE: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001303
+SECTION: cm_001303
+TITLE: 0013.03 - MFIP BASES OF ELIGIBILITY
+========================================================================
+
+MFIP BASES OF ELIGIBILITY
+
+ISSUE DATE: 03/2026
+
+MFIP:
+All families have a basis of eligibility for MFIP and may apply. MFIP defines a family as a minor child or a group of minor children related to each other as siblings, half-siblings, step-siblings, or adopted siblings, along with their birth, step- or adoptive parent(s) or other caregiver(s). For information as to who is eligible for state-funded MFIP, see 0013.03.06 (MFIP Basis - State-Funded Cash Portion). See CAREGIVER in 0002.09 (Glossary: Calendar Month...) and MINOR CHILD in 0002.41 (Glossary: Medically Necessary...). For specific information on who is in the assistance unit, see 0014 (Assistance Units).
+
+Families also include:
+
+●
+
+	
+
+A pregnant woman who has no other eligible children and her spouse if married and living with her. See 0012.06 (Requirements for Caregivers Under 20), 0013.03.03 (Pregnant Woman Basis – MFIP).
+
+
+ 	
+
+OR
+
+
+
+
+●
+
+	
+
+A minor caregiver's parent(s) who has no other minor children. See 0014.03.03 (Determining the Cash Assistance Unit).
+
+
+ 	
+
+OR
+
+
+
+
+●
+
+	
+
+A minor caregiver and child.
+
+
+People who get MFIP may also be eligible for health care. See the Minnesota Health Care Programs Eligibility Policy Manual.
+
+If certain conditions are met, the unit may also be eligible for SNAP without requiring a new application. See 0005.09.06 (When Not to Require Completion of an Application), TEMP Manual TE02.08.143 (SNAP When MFIP Is Closed).
+
+
+SNAP, MSA, GA, HSP:
+No provisions.
+
+PREVIOUS REVISIONS
+
+Date	Notes
+06/2021	in MFIP in the 1st bullet deletes and adds language for clarity.
+11/2020	update the section name of TEMP Manual TE02.08.143 (SNAP When MFIP Is Closed) due to section title change. No policy was changed.
+09/2016	updates the name and link of the Minnesota Health Care Programs Eligibility Policy Manual. No policy was changed.
+12/2014	Removed WB.  This program was suspended 12/1/14.
+11/2013	change the link title to Insurance Affordability Programs/Health Care Manuals due to manual name change. No policy was changed.
+
+Report this page

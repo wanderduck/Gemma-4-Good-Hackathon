@@ -157,13 +157,20 @@ NOISE_CLASSES = re.compile(
 )
 
 
-def _is_noise(tag: Tag) -> bool:
+def _is_noise(tag) -> bool:
     """Return True if this element looks like chrome/navigation rather than content."""
-    if tag.name in NOISE_TAGS:
-        return True
-    classes = " ".join(tag.get("class", []))
-    tag_id = tag.get("id", "")
-    return bool(NOISE_CLASSES.search(classes) or NOISE_CLASSES.search(tag_id))
+    try:
+        if not hasattr(tag, "name") or tag.name is None:
+            return False
+        if getattr(tag, "attrs", None) is None:
+            return False
+        if tag.name in NOISE_TAGS:
+            return True
+        classes = " ".join(tag.get("class", []) or [])
+        tag_id = tag.get("id", "") or ""
+        return bool(NOISE_CLASSES.search(classes) or NOISE_CLASSES.search(tag_id))
+    except (AttributeError, TypeError):
+        return False
 
 
 def _get_content_root(soup: BeautifulSoup) -> Tag:
@@ -189,13 +196,16 @@ def _clean_text(raw: str) -> str:
 
 def extract_main_text(soup: BeautifulSoup) -> str:
     """Extract clean body text from the main content area."""
-    root = _get_content_root(soup)
-    # Remove noisy child elements in-place on a copy so we don't mutate the tree.
     import copy
+    root = _get_content_root(soup)
     root_copy = copy.copy(root)
-    for tag in root_copy.find_all(True):
-        if _is_noise(tag):
+    # Collect noise tags first, then decompose (avoids mutation during iteration).
+    noise = [tag for tag in root_copy.find_all(True) if _is_noise(tag)]
+    for tag in noise:
+        try:
             tag.decompose()
+        except Exception:
+            pass
     return _clean_text(root_copy.get_text(separator="\n", strip=True))
 
 
