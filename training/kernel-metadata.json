@@ -1,5 +1,5 @@
 {
-  "id": "wanderduck/navigator-gemma4-finetune",
+  "id": "wanderduck/navigator-gemma-4-e4b-fine-tune",
   "title": "Navigator Gemma 4 E4B Fine-tune",
   "code_file": "kaggle_finetune.ipynb",
   "language": "python",
