@@ -1,0 +1,16 @@
+{
+  "id": "wanderduck/navigator-gemma4-finetune",
+  "title": "Navigator Gemma 4 E4B Fine-tune",
+  "code_file": "kaggle_finetune.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "wanderduck/mn-navigator-training"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
