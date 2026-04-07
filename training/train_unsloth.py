@@ -57,8 +57,9 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Load model with Unsloth optimizations
+    # Use Unsloth's pre-optimized version for faster loading + less VRAM
     model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name="google/gemma-4-E4B-it",
+        model_name="unsloth/gemma-4-E4B-it",
         max_seq_length=args.max_seq_length,
         load_in_4bit=True,
         dtype=None,  # auto-detect

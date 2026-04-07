@@ -1,7 +1,8 @@
 """Export Unsloth fine-tuned model to GGUF format for Ollama.
 
 Usage:
-    python training/export_gguf.py --model training/output/final --output training/output/gguf
+    python training/export_gguf.py --model training/output/final
+    python training/export_gguf.py --model /kaggle/working/navigator-finetune/final
 
 After export, create an Ollama model:
     ollama create navigator-e4b -f training/output/gguf/Modelfile
@@ -38,11 +39,20 @@ def main():
     )
 
     # Create Ollama Modelfile
+    system_prompt = (
+        "You are a plain-language government benefits navigator for Minnesota. "
+        "You help people understand which government assistance programs they may "
+        "be eligible for based on their situation. Be warm, clear, and actionable. "
+        "Always cite specific eligibility thresholds and application portals. "
+        'Never say someone "qualifies" — say "may be eligible." '
+        "End every response with a disclaimer that this is informational, not legal advice."
+    )
     modelfile_content = f"""FROM {output_dir / f'unsloth.{args.quant.upper()}.gguf'}
 PARAMETER temperature 1.0
 PARAMETER top_p 0.95
 PARAMETER top_k 64
-SYSTEM "You are a plain-language government benefits navigator."
+PARAMETER num_ctx 2048
+SYSTEM "{system_prompt}"
 """
     modelfile_path = output_dir / "Modelfile"
     modelfile_path.write_text(modelfile_content)
