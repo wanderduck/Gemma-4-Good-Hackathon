@@ -46,7 +46,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 COUNTY_URLS = {
     "ramsey": "https://www.ramseycountymn.gov/residents/assistance-support/",
-    "hennepin": "https://www.hennepin.us/en/residents/human-services",
+    "hennepin": "https://www.hennepincounty.gov/services/assistance",
     "dakota": "https://www.co.dakota.mn.us/HealthFamily/PublicAssistance",
     "scott": "https://www.scottcountymn.gov/193/Social-Services",
     "carver": "https://www.carvercountymn.gov/departments/health-human-services",
@@ -80,8 +80,8 @@ REQUEST_DELAY = 1.5  # seconds between requests
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (compatible; GovernmentBenefitsBot/1.0; "
-        "+https://github.com/wanderduck; educational/research use)"
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",

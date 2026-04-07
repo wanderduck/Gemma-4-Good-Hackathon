@@ -1,0 +1,16 @@
+{
+  "title": "MN Navigator Training Data",
+  "id": "wanderduck/mn-navigator-training",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "gemma",
+    "government benefits",
+    "minnesota",
+    "fine-tuning",
+    "plain language"
+  ]
+}
