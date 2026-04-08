@@ -16,6 +16,7 @@ output_vol = modal.Volume.from_name("navigator-finetune-output", create_if_missi
 
 finetune_image = (
     modal.Image.debian_slim(python_version="3.12")
+    .apt_install("git")
     .pip_install(
         "unsloth",
         "trl",
@@ -23,7 +24,7 @@ finetune_image = (
         "accelerate",
         "bitsandbytes",
         "datasets",
-        "transformers",
+        "git+https://github.com/huggingface/transformers.git",
         "torch",
         "sentencepiece",
         "protobuf",

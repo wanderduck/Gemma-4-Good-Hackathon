@@ -1,0 +1,332 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Minnesota" [ref=e6] [cursor=pointer]:
+        - /url: https://mn.gov/dhs
+        - img "Minnesota" [ref=e7]
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - text: "Skip To:"
+          - link "Main Content" [ref=e10] [cursor=pointer]:
+            - /url: "#mainContent"
+          - text: "|"
+          - link "Subnavigation" [ref=e11] [cursor=pointer]:
+            - /url: "#divSidebar"
+          - text: "|"
+        - heading "Combined Manual" [level=1] [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "DHS Home" [ref=e16] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/
+          - link "PartnerLink Home" [ref=e17] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CountyLink_Home
+          - link "Manuals Home" [ref=e18] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=Manuals
+          - link "Bulletins" [ref=e19] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/general-public/publications-forms-resources/bulletins/
+          - link "Advanced Search " [ref=e20] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=manual_search&hdManualName=CombinedManual
+            - text: Advanced Search
+            - generic [ref=e21]: 
+        - generic [ref=e23]:
+          - textbox "keyword search..." [ref=e24]
+          - button "" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+    - generic [ref=e27]:
+      - button " Hide table of contents" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Hide table of contents
+      - generic [ref=e31]:
+        - generic [ref=e32]: 
+        - link "Combined Manual" [ref=e33] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual
+        - generic [ref=e34]: 
+        - link "04 - EMERGENCIES" [ref=e35] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+        - generic [ref=e36]: 
+        - link "0004.01 - EMERGENCY GENERAL ASSISTANCE (EGA)" [ref=e37] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000401
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: "Find in Table of Contents:"
+        - textbox "Find in Table of Contents:" [ref=e42]:
+          - /placeholder: Find in ToC...
+      - tree [ref=e43]:
+        - group [ref=e44]:
+          - treeitem "Future Changes" [level=1] [ref=e45]:
+            - link "Future Changes" [ref=e46] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0000
+          - treeitem "Guides and Handouts" [level=1] [ref=e47]:
+            - link "Guides and Handouts" [ref=e48] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_164726
+          - treeitem "01 - TABLE OF CONTENTS" [level=1] [ref=e49]:
+            - link "01 - TABLE OF CONTENTS" [ref=e50] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - treeitem "02 - GLOSSARY" [level=1] [ref=e51]:
+            - link "02 - GLOSSARY" [ref=e52] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - treeitem "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [level=1] [ref=e53]:
+            - link "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [ref=e54] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - treeitem "04 - EMERGENCIES" [expanded] [level=1] [ref=e55]:
+            - link "04 - EMERGENCIES" [ref=e56] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+            - group [ref=e57]:
+              - treeitem "0004 - EMERGENCIES" [level=2] [ref=e58]:
+                - link "0004 - EMERGENCIES" [ref=e59] [cursor=pointer]:
+                  - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0004
+              - treeitem "0004.01 - EMERGENCY GENERAL ASSISTANCE (EGA)" [level=2] [ref=e60]:
+                - link "0004.01 - EMERGENCY GENERAL ASSISTANCE (EGA)" [ref=e61] [cursor=pointer]:
+                  - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000401
+              - treeitem "0004.04 - EXPEDITED SNAP" [level=2] [ref=e62]:
+                - link "0004.04 - EXPEDITED SNAP" [ref=e63] [cursor=pointer]:
+                  - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000404
+              - treeitem "0004.48 - DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [level=2] [ref=e64]:
+                - link "0004.48 - DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [ref=e65] [cursor=pointer]:
+                  - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000448
+          - treeitem "05 - APPLICATIONS" [level=1] [ref=e66]:
+            - link "05 - APPLICATIONS" [ref=e67] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - treeitem "06 - DETERMINING FINANCIAL RESPONSIBILITY" [level=1] [ref=e68]:
+            - link "06 - DETERMINING FINANCIAL RESPONSIBILITY" [ref=e69] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - treeitem "07 - REPORTING" [level=1] [ref=e70]:
+            - link "07 - REPORTING" [ref=e71] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - treeitem "08 - CHANGES IN CIRCUMSTANCES" [level=1] [ref=e72]:
+            - link "08 - CHANGES IN CIRCUMSTANCES" [ref=e73] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - treeitem "09 - RECERTIFICATION" [level=1] [ref=e74]:
+            - link "09 - RECERTIFICATION" [ref=e75] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - treeitem "10 - VERIFICATION" [level=1] [ref=e76]:
+            - link "10 - VERIFICATION" [ref=e77] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - treeitem "11 - TECHNICAL ELIGIBILITY" [level=1] [ref=e78]:
+            - link "11 - TECHNICAL ELIGIBILITY" [ref=e79] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - treeitem "12 - PROCEDURAL ELIGIBILITY" [level=1] [ref=e80]:
+            - link "12 - PROCEDURAL ELIGIBILITY" [ref=e81] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - treeitem "13 - BASIS OF ELIGIBILITY" [level=1] [ref=e82]:
+            - link "13 - BASIS OF ELIGIBILITY" [ref=e83] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+          - treeitem "14 - ASSISTANCE UNITS" [level=1] [ref=e84]:
+            - link "14 - ASSISTANCE UNITS" [ref=e85] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - treeitem "15 - ASSETS" [level=1] [ref=e86]:
+            - link "15 - ASSETS" [ref=e87] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - treeitem "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [level=1] [ref=e88]:
+            - link "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [ref=e89] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - treeitem "17 - DETERMINING GROSS INCOME" [level=1] [ref=e90]:
+            - link "17 - DETERMINING GROSS INCOME" [ref=e91] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - treeitem "18 - DETERMINING NET INCOME" [level=1] [ref=e92]:
+            - link "18 - DETERMINING NET INCOME" [ref=e93] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - treeitem "19 - GROSS INCOME TEST" [level=1] [ref=e94]:
+            - link "19 - GROSS INCOME TEST" [ref=e95] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - treeitem "20 - NET INCOME LIMITS" [level=1] [ref=e96]:
+            - link "20 - NET INCOME LIMITS" [ref=e97] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+          - treeitem "22 - BUDGETING AND BENEFIT DETERMINATION" [level=1] [ref=e98]:
+            - link "22 - BUDGETING AND BENEFIT DETERMINATION" [ref=e99] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - treeitem "23 - SPECIAL NEEDS PAYMENTS" [level=1] [ref=e100]:
+            - link "23 - SPECIAL NEEDS PAYMENTS" [ref=e101] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - treeitem "24 - PAYMENTS" [level=1] [ref=e102]:
+            - link "24 - PAYMENTS" [ref=e103] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - treeitem "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [level=1] [ref=e104]:
+            - link "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [ref=e105] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - treeitem "26 - NOTICES" [level=1] [ref=e106]:
+            - link "26 - NOTICES" [ref=e107] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - treeitem "27 - APPEALS" [level=1] [ref=e108]:
+            - link "27 - APPEALS" [ref=e109] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - treeitem "28 - EMPLOYMENT SERVICES" [level=1] [ref=e110]:
+            - link "28 - EMPLOYMENT SERVICES" [ref=e111] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - treeitem "29 - OTHER RELATED PROGRAMS" [level=1] [ref=e112]:
+            - link "29 - OTHER RELATED PROGRAMS" [ref=e113] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - treeitem "30 - REFUGEE ASSISTANCE PROGRAMS" [level=1] [ref=e114]:
+            - link "30 - REFUGEE ASSISTANCE PROGRAMS" [ref=e115] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - treeitem "31 - NON-CITIZEN GUIDANCE" [level=1] [ref=e116]:
+            - link "31 - NON-CITIZEN GUIDANCE" [ref=e117] [cursor=pointer]:
+              - /url: /main/idcplgf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - heading "EMERGENCY GENERAL ASSISTANCE (EGA)" [level=1] [ref=e120]
+        - paragraph [ref=e121]: "ISSUE DATE: 03/2026"
+      - paragraph [ref=e122]:
+        - text: "MFIP, MSA, HSP:"
+        - text: No provisions.
+        - text: "SNAP:"
+        - text: No provisions. See
+        - link "0004.04 (Expedited SNAP)." [ref=e123] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000404
+      - paragraph [ref=e124]:
+        - text: "GA:"
+        - text: Emergency General Assistance (EGA) meets the emergency needs of eligible individuals, married couples, or families who are in an emergency.
+      - paragraph [ref=e125]: "To receive EGA, a unit must meet ALL the following conditions:"
+      - paragraph
+      - paragraph
+      - table "table" [ref=e126]:
+        - rowgroup [ref=e127]:
+          - row "● Have not received EGA or Emergency Assistance from the County Consolidated Fund within 12 months of the application date for EGA. Anyone in the unit receiving EGA or Emergency Assistance makes the entire unit ineligible for the 12-month period." [ref=e128]:
+            - cell "●" [ref=e129]:
+              - paragraph [ref=e130]: ●
+            - cell "Have not received EGA or Emergency Assistance from the County Consolidated Fund within 12 months of the application date for EGA. Anyone in the unit receiving EGA or Emergency Assistance makes the entire unit ineligible for the 12-month period." [ref=e131]:
+              - paragraph [ref=e132]: Have not received EGA or Emergency Assistance from the County Consolidated Fund within 12 months of the application date for EGA. Anyone in the unit receiving EGA or Emergency Assistance makes the entire unit ineligible for the 12-month period.
+          - 'row "● Be facing an EMERGENCY in which it is without, or will lose within 30 days after application, a BASIC NEED item. See 0002.05 (Glossary: Assistance Standard…) and 0002.19 (Glossary: Early…). An emergency must require immediate financial assistance. The financial assistance required by the emergency must be temporary and must not exceed 30 days." [ref=e133]':
+            - cell "●" [ref=e134]:
+              - paragraph [ref=e135]: ●
+            - 'cell "Be facing an EMERGENCY in which it is without, or will lose within 30 days after application, a BASIC NEED item. See 0002.05 (Glossary: Assistance Standard…) and 0002.19 (Glossary: Early…). An emergency must require immediate financial assistance. The financial assistance required by the emergency must be temporary and must not exceed 30 days." [ref=e136]':
+              - paragraph [ref=e137]:
+                - text: Be facing an EMERGENCY in which it is without, or will lose within 30 days after application, a BASIC NEED item. See
+                - 'link "0002.05 (Glossary: Assistance Standard…)" [ref=e138] [cursor=pointer]':
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000205
+                - text: and
+                - 'link "0002.19 (Glossary: Early…)" [ref=e139] [cursor=pointer]':
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000219
+                - generic [ref=e140]: . An emergency must require immediate financial assistance. The financial assistance required by the emergency must be temporary and must not exceed 30 days.
+          - row "● Have an emergency that threatens the unit members’ health or safety and meet the written criteria adopted by the county agency." [ref=e141]:
+            - cell "●" [ref=e142]:
+              - paragraph [ref=e143]: ●
+            - cell "Have an emergency that threatens the unit members’ health or safety and meet the written criteria adopted by the county agency." [ref=e144]:
+              - paragraph [ref=e145]: Have an emergency that threatens the unit members’ health or safety and meet the written criteria adopted by the county agency.
+          - row "● The applicant and family, if any, must have a current net income under 200% of the federal poverty guidelines for the previous year. See 0016.18.01 (200 Percent of Federal Poverty Guidelines)." [ref=e146]:
+            - cell "●" [ref=e147]:
+              - paragraph [ref=e148]: ●
+            - cell "The applicant and family, if any, must have a current net income under 200% of the federal poverty guidelines for the previous year. See 0016.18.01 (200 Percent of Federal Poverty Guidelines)." [ref=e149]:
+              - paragraph [ref=e150]:
+                - text: The applicant and family, if any, must have a current net income under 200% of the federal poverty guidelines for the previous year. See
+                - link "0016.18.01 (200 Percent of Federal Poverty Guidelines)" [ref=e151] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00161801
+                - generic [ref=e152]: .
+          - row "● At least 1 person in the EGA unit must meet GA or HSP citizenship or immigration status requirements listed under 0031 (Non-Citizen Guidance)." [ref=e153]:
+            - cell "●" [ref=e154]:
+              - paragraph [ref=e155]: ●
+            - cell "At least 1 person in the EGA unit must meet GA or HSP citizenship or immigration status requirements listed under 0031 (Non-Citizen Guidance)." [ref=e156]:
+              - paragraph [ref=e157]:
+                - text: At least 1 person in the EGA unit must meet GA or HSP citizenship or immigration status requirements listed under
+                - link "0031 (Non-Citizen Guidance)." [ref=e158] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0031
+          - row "● For a single person, a childless married couple, or a family, at least 1 person must have lived in Minnesota for at least 30 days. See 0011.06 (State Residence)." [ref=e159]:
+            - cell "●" [ref=e160]:
+              - paragraph [ref=e161]: ●
+            - cell "For a single person, a childless married couple, or a family, at least 1 person must have lived in Minnesota for at least 30 days. See 0011.06 (State Residence)." [ref=e162]:
+              - paragraph [ref=e163]:
+                - text: For a single person, a childless married couple, or a family, at least 1 person must have lived in Minnesota for at least 30 days. See
+                - link "0011.06 (State Residence)" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001106
+                - text: .
+          - row "● The unit must not currently be eligible for or receiving MFIP." [ref=e165]:
+            - cell "●" [ref=e166]:
+              - paragraph [ref=e167]: ●
+            - cell "The unit must not currently be eligible for or receiving MFIP." [ref=e168]:
+              - paragraph [ref=e169]: The unit must not currently be eligible for or receiving MFIP.
+          - row "● Disqualification from GA or MFIP must not have caused the emergency." [ref=e170]:
+            - cell "●" [ref=e171]:
+              - paragraph [ref=e172]: ●
+            - cell "Disqualification from GA or MFIP must not have caused the emergency." [ref=e173]:
+              - paragraph [ref=e174]: Disqualification from GA or MFIP must not have caused the emergency.
+          - row "● Eligibility may not exceed 30 days." [ref=e175]:
+            - cell "●" [ref=e176]:
+              - paragraph [ref=e177]: ●
+            - cell "Eligibility may not exceed 30 days." [ref=e178]:
+              - paragraph [ref=e179]: Eligibility may not exceed 30 days.
+          - row "● Aid is subject to the availability of state and/or county funds." [ref=e180]:
+            - cell "●" [ref=e181]:
+              - paragraph [ref=e182]: ●
+            - cell "Aid is subject to the availability of state and/or county funds." [ref=e183]:
+              - paragraph [ref=e184]: Aid is subject to the availability of state and/or county funds.
+          - row "● The unit must meet any additional criteria adopted by the county agency." [ref=e185]:
+            - cell "●" [ref=e186]:
+              - paragraph [ref=e187]: ●
+            - cell "The unit must meet any additional criteria adopted by the county agency." [ref=e188]:
+              - paragraph [ref=e189]: The unit must meet any additional criteria adopted by the county agency.
+      - paragraph
+      - paragraph [ref=e190]: Offer EGA information and the application on the same day a person inquires about the program. If an emergency is imminent or already present, offer the interview on the same day the unit submits the application. If there is emergent and ongoing need, process the application as soon as possible for ongoing GA eligibility. If there will be a significant delay, EGA may be used for up to 30 days until GA eligibility is determined.
+      - paragraph
+      - paragraph [ref=e191]: Determine EGA eligibility back to the date of the emergency if the agency receives the application pages within 30 days of the emergency. The unit must be EGA eligible for the county to claim state aid.
+      - paragraph
+      - paragraph [ref=e192]:
+        - text: Mandatory verifications for GA and EGA are the same. See
+        - link "0010.18 (Mandatory Verifications)" [ref=e193] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001018
+        - text: and
+        - link "0010.18.01 (Mandatory Verifications – Cash Assistance)" [ref=e194] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00101801
+        - text: . Use available documentary evidence, collateral contacts or, if necessary, signed statements from the client.
+      - paragraph
+      - paragraph [ref=e195]: An interim assistance agreement is not required for EGA. Federal rules do not allow states and county agencies to seek EGA reimbursement from RSDI and SSI back payments.
+      - paragraph
+      - paragraph [ref=e196]:
+        - text: For EGA overpayments, follow GA overpayment provisions. See
+        - link "0025 (Benefit Adjustments and Recovery)" [ref=e197] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0025
+        - text: .
+      - paragraph
+      - paragraph [ref=e198]:
+        - text: For EGA appeals, follow GA appeal provisions. See
+        - link "0027 (Appeals)" [ref=e199] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0027
+        - text: .
+      - generic [ref=e200]:
+        - paragraph [ref=e201]: PREVIOUS REVISIONS
+        - table [ref=e202]:
+          - rowgroup [ref=e203]:
+            - row "Date Notes" [ref=e204]:
+              - columnheader "Date" [ref=e205]
+              - columnheader "Notes" [ref=e206]
+            - row "07/2024 removes link to 0011.03 (Citizenship and Immigration Status) and replaces with 0031 (Non-Citizen Guidance)." [ref=e207]:
+              - cell "07/2024" [ref=e208]:
+                - link "07/2024" [ref=e209] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=147181
+              - cell "removes link to 0011.03 (Citizenship and Immigration Status) and replaces with 0031 (Non-Citizen Guidance)." [ref=e210]
+            - row "11/2023 title change, updates to links throughout, and consolidating EGA information into this section." [ref=e211]:
+              - cell "11/2023" [ref=e212]:
+                - link "11/2023" [ref=e213] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=140225
+              - cell "title change, updates to links throughout, and consolidating EGA information into this section." [ref=e214]
+            - row "12/2014 Removed WB. This program was suspended 12/1/14." [ref=e215]:
+              - cell "12/2014" [ref=e216]:
+                - link "12/2014" [ref=e217] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=129213
+              - cell "Removed WB. This program was suspended 12/1/14." [ref=e218]
+            - row "05/2013 update cross-references to 0004.04 (Emergency Aid Eligibility - SNAP/Expedited Food). No policy was changed." [ref=e219]:
+              - cell "05/2013" [ref=e220]:
+                - link "05/2013" [ref=e221] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=127582
+              - cell "update cross-references to 0004.04 (Emergency Aid Eligibility - SNAP/Expedited Food). No policy was changed." [ref=e222]
+      - paragraph [ref=e224]:
+        - link "Report this page" [ref=e226] [cursor=pointer]:
+          - /url: javascript:showRate()
+  - contentinfo [ref=e227]:
+    - generic [ref=e229]:
+      - generic [ref=e230]: © 2026 Minnesota Department of Human Services
+      - generic [ref=e231]:
+        - text: "Updated: 3/1/26 12:00 AM |"
+        - link "Accessibility" [ref=e232] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/accessibility.jsp
+        - text: "|"
+        - link "Terms/Policy" [ref=e233] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/index.jsp
+        - text: "|"
+        - link "Contact DHS" [ref=e234] [cursor=pointer]:
+          - /url: http://mn.gov/dhs/general-public/about-dhs/contact-us/index.jsp
+        - text: "|"
+        - link "Top of Page" [ref=e235] [cursor=pointer]:
+          - /url: "#top"
+        - text: "|"

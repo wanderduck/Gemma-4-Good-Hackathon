@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Minnesota" [ref=e6] [cursor=pointer]:
+        - /url: https://mn.gov/dhs
+        - img "Minnesota" [ref=e7]
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - text: "Skip To:"
+          - link "Main Content" [ref=e10] [cursor=pointer]:
+            - /url: "#mainContent"
+          - text: "|"
+          - link "Subnavigation" [ref=e11] [cursor=pointer]:
+            - /url: "#divSidebar"
+          - text: "|"
+        - heading "Combined Manual" [level=1] [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "DHS Home" [ref=e16] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/
+          - link "PartnerLink Home" [ref=e17] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CountyLink_Home
+          - link "Manuals Home" [ref=e18] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=Manuals
+          - link "Bulletins" [ref=e19] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/general-public/publications-forms-resources/bulletins/
+          - link "Advanced Search " [ref=e20] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=manual_search&hdManualName=CombinedManual
+            - text: Advanced Search
+            - generic [ref=e21]: 
+        - generic [ref=e23]:
+          - textbox "keyword search..." [ref=e24]
+          - button "" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+    - generic [ref=e27]:
+      - button " Hide table of contents" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Hide table of contents
+      - generic [ref=e31]:
+        - generic [ref=e32]: 
+        - link "Combined Manual" [ref=e33] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual
+        - generic [ref=e34]: 
+        - link "20 - NET INCOME LIMITS" [ref=e35] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+        - generic [ref=e36]: 
+        - link "0020.18 - GA ASSISTANCE STANDARDS" [ref=e37] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002018
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: "Find in Table of Contents:"
+        - textbox "Find in Table of Contents:" [ref=e42]:
+          - /placeholder: Find in ToC...
+      - tree [ref=e43]:
+        - group [ref=e44]:
+          - treeitem "Future Changes" [level=1] [ref=e45]:
+            - link "Future Changes" [ref=e46] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0000
+          - treeitem "Guides and Handouts" [level=1] [ref=e47]:
+            - link "Guides and Handouts" [ref=e48] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_164726
+          - treeitem "01 - TABLE OF CONTENTS" [level=1] [ref=e49]:
+            - link "01 - TABLE OF CONTENTS" [ref=e50] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - treeitem "02 - GLOSSARY" [level=1] [ref=e51]:
+            - link "02 - GLOSSARY" [ref=e52] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - treeitem "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [level=1] [ref=e53]:
+            - link "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [ref=e54] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - treeitem "04 - EMERGENCIES" [level=1] [ref=e55]:
+            - link "04 - EMERGENCIES" [ref=e56] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+          - treeitem "05 - APPLICATIONS" [level=1] [ref=e57]:
+            - link "05 - APPLICATIONS" [ref=e58] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - treeitem "06 - DETERMINING FINANCIAL RESPONSIBILITY" [level=1] [ref=e59]:
+            - link "06 - DETERMINING FINANCIAL RESPONSIBILITY" [ref=e60] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - treeitem "07 - REPORTING" [level=1] [ref=e61]:
+            - link "07 - REPORTING" [ref=e62] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - treeitem "08 - CHANGES IN CIRCUMSTANCES" [level=1] [ref=e63]:
+            - link "08 - CHANGES IN CIRCUMSTANCES" [ref=e64] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - treeitem "09 - RECERTIFICATION" [level=1] [ref=e65]:
+            - link "09 - RECERTIFICATION" [ref=e66] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - treeitem "10 - VERIFICATION" [level=1] [ref=e67]:
+            - link "10 - VERIFICATION" [ref=e68] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - treeitem "11 - TECHNICAL ELIGIBILITY" [level=1] [ref=e69]:
+            - link "11 - TECHNICAL ELIGIBILITY" [ref=e70] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - treeitem "12 - PROCEDURAL ELIGIBILITY" [level=1] [ref=e71]:
+            - link "12 - PROCEDURAL ELIGIBILITY" [ref=e72] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - treeitem "13 - BASIS OF ELIGIBILITY" [level=1] [ref=e73]:
+            - link "13 - BASIS OF ELIGIBILITY" [ref=e74] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+          - treeitem "14 - ASSISTANCE UNITS" [level=1] [ref=e75]:
+            - link "14 - ASSISTANCE UNITS" [ref=e76] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - treeitem "15 - ASSETS" [level=1] [ref=e77]:
+            - link "15 - ASSETS" [ref=e78] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - treeitem "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [level=1] [ref=e79]:
+            - link "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [ref=e80] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - treeitem "17 - DETERMINING GROSS INCOME" [level=1] [ref=e81]:
+            - link "17 - DETERMINING GROSS INCOME" [ref=e82] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - treeitem "18 - DETERMINING NET INCOME" [level=1] [ref=e83]:
+            - link "18 - DETERMINING NET INCOME" [ref=e84] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - treeitem "19 - GROSS INCOME TEST" [level=1] [ref=e85]:
+            - link "19 - GROSS INCOME TEST" [ref=e86] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - treeitem "20 - NET INCOME LIMITS" [expanded] [level=1] [ref=e87]:
+            - link "20 - NET INCOME LIMITS" [ref=e88] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+            - group [ref=e89]:
+              - treeitem "0020 - NET INCOME LIMITS" [level=2] [ref=e90]:
+                - link "0020 - NET INCOME LIMITS" [ref=e91] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0020
+              - treeitem "0020.03 - PEOPLE EXEMPT FROM NET INCOME LIMITS" [level=2] [ref=e92]:
+                - link "0020.03 - PEOPLE EXEMPT FROM NET INCOME LIMITS" [ref=e93] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002003
+              - treeitem "0020.06 - CHOOSING THE ASSISTANCE STANDARD TABLE" [level=2] [ref=e94]:
+                - link "0020.06 - CHOOSING THE ASSISTANCE STANDARD TABLE" [ref=e95] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002006
+              - treeitem "0020.09 - MFIP ASSISTANCE STANDARDS" [level=2] [ref=e96]:
+                - link "0020.09 - MFIP ASSISTANCE STANDARDS" [ref=e97] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002009
+              - treeitem "0020.12 - SNAP ASSISTANCE STANDARDS" [level=2] [ref=e98]:
+                - link "0020.12 - SNAP ASSISTANCE STANDARDS" [ref=e99] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002012
+              - treeitem "0020.18 - GA ASSISTANCE STANDARDS" [level=2] [ref=e100]:
+                - link "0020.18 - GA ASSISTANCE STANDARDS" [ref=e101] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002018
+              - treeitem "0020.21 - MSA ASSISTANCE STANDARDS" [level=2] [ref=e102]:
+                - link "0020.21 - MSA ASSISTANCE STANDARDS" [ref=e103] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002021
+              - treeitem "0020.22 - HSP ASSISTANCE STANDARDS" [level=2] [ref=e104]:
+                - link "0020.22 - HSP ASSISTANCE STANDARDS" [ref=e105] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002022
+              - treeitem "0020.24 - PERSONAL NEEDS ALLOWANCE" [level=2] [ref=e106]:
+                - link "0020.24 - PERSONAL NEEDS ALLOWANCE" [ref=e107] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002024
+          - treeitem "22 - BUDGETING AND BENEFIT DETERMINATION" [level=1] [ref=e108]:
+            - link "22 - BUDGETING AND BENEFIT DETERMINATION" [ref=e109] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - treeitem "23 - SPECIAL NEEDS PAYMENTS" [level=1] [ref=e110]:
+            - link "23 - SPECIAL NEEDS PAYMENTS" [ref=e111] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - treeitem "24 - PAYMENTS" [level=1] [ref=e112]:
+            - link "24 - PAYMENTS" [ref=e113] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - treeitem "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [level=1] [ref=e114]:
+            - link "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [ref=e115] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - treeitem "26 - NOTICES" [level=1] [ref=e116]:
+            - link "26 - NOTICES" [ref=e117] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - treeitem "27 - APPEALS" [level=1] [ref=e118]:
+            - link "27 - APPEALS" [ref=e119] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - treeitem "28 - EMPLOYMENT SERVICES" [level=1] [ref=e120]:
+            - link "28 - EMPLOYMENT SERVICES" [ref=e121] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - treeitem "29 - OTHER RELATED PROGRAMS" [level=1] [ref=e122]:
+            - link "29 - OTHER RELATED PROGRAMS" [ref=e123] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - treeitem "30 - REFUGEE ASSISTANCE PROGRAMS" [level=1] [ref=e124]:
+            - link "30 - REFUGEE ASSISTANCE PROGRAMS" [ref=e125] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - treeitem "31 - NON-CITIZEN GUIDANCE" [level=1] [ref=e126]:
+            - link "31 - NON-CITIZEN GUIDANCE" [ref=e127] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - heading "GA ASSISTANCE STANDARDS" [level=1] [ref=e130]
+        - paragraph [ref=e131]: "ISSUE DATE: 04/2026"
+      - paragraph [ref=e132]:
+        - text: "MFIP, SNAP, MSA, HSP:"
+        - text: No provisions.
+        - text: "GA:"
+        - text: People who live in a licensed residential facility (including all residents of the Minnesota Sex Offender Program), receive Housing Support, or receive substance use disorder treatment services are eligible for the GA personal needs allowance. See
+        - link "0020.24 (Personal Needs Allowance)" [ref=e133] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002024
+        - text: ","
+        - link "0013.15.12 (GA – Basis – Placement in a Facility)" [ref=e134] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131512
+        - text: ", and"
+        - link "0013.15.54 (GA Basis – Drug/Alcohol Addiction)." [ref=e135] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131554
+        - text: Pay the personal needs allowance to the client or their authorized representative.
+        - text: Residents of homeless or family violence shelters, and people with drug or alcohol addiction who live in the community and are not receiving substance use disorder treatment services, are eligible for the full GA basic needs standards. See
+        - link "0013.15.54 (GA Basis – Drug/Alcohol Addiction)." [ref=e136] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131554
+        - text: "All other GA recipients are eligible for the full GA basic needs standard:"
+      - paragraph
+      - paragraph
+      - table "table" [ref=e137]:
+        - rowgroup [ref=e138]:
+          - row "ELIGIBLE PEOPLE MONTHLY STANDARD" [ref=e139]:
+            - cell "ELIGIBLE PEOPLE" [ref=e140]:
+              - paragraph [ref=e141]: ELIGIBLE PEOPLE
+            - cell "MONTHLY STANDARD" [ref=e142]:
+              - paragraph [ref=e143]: MONTHLY STANDARD
+          - row "One adult living alone $360.50" [ref=e144]:
+            - cell "One adult living alone" [ref=e145]:
+              - paragraph [ref=e146]: One adult living alone
+            - cell "$360.50" [ref=e147]:
+              - paragraph [ref=e148]: $360.50
+          - row "One adult living with parent(s) or an ineligible spouse $360.50" [ref=e149]:
+            - cell "One adult living with parent(s) or an ineligible spouse" [ref=e150]:
+              - paragraph [ref=e151]: One adult living with parent(s) or an ineligible spouse
+            - cell "$360.50" [ref=e152]:
+              - paragraph [ref=e153]: $360.50
+          - row "Minor or emancipated child not living with parent, stepparent, or legal custodian $360.50" [ref=e154]:
+            - cell "Minor or emancipated child not living with parent, stepparent, or legal custodian" [ref=e155]:
+              - paragraph [ref=e156]: Minor or emancipated child not living with parent, stepparent, or legal custodian
+            - cell "$360.50" [ref=e157]:
+              - paragraph [ref=e158]: $360.50
+          - row "Married couple with no children Each eligible unit member receives $360.50" [ref=e159]:
+            - cell "Married couple with no children" [ref=e160]:
+              - paragraph [ref=e161]: Married couple with no children
+            - cell "Each eligible unit member receives $360.50" [ref=e162]:
+              - paragraph [ref=e163]: Each eligible unit member receives $360.50
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: PREVIOUS REVISIONS
+        - table [ref=e166]:
+          - rowgroup [ref=e167]:
+            - row "Date Notes" [ref=e168]:
+              - columnheader "Date" [ref=e169]
+              - columnheader "Notes" [ref=e170]
+            - row "03/2026 Manuals Moratorium - removes DWP language for the DWP repeal, reviews DHS language, updates language of GRH to HSP, reinserts bold." [ref=e171]:
+              - cell "03/2026" [ref=e172]:
+                - link "03/2026" [ref=e173] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=165165
+              - cell "Manuals Moratorium - removes DWP language for the DWP repeal, reviews DHS language, updates language of GRH to HSP, reinserts bold." [ref=e174]
+            - row "10/2025 The assistance standard for GA recipients living in the community increases to $360.50 effective 10/1/2025." [ref=e175]:
+              - cell "10/2025" [ref=e176]:
+                - link "10/2025" [ref=e177] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=160645
+              - cell "The assistance standard for GA recipients living in the community increases to $360.50 effective 10/1/2025." [ref=e178]
+            - row "10/2024 The assistance standard for GA recipients living in the community increases to $350 effective 10/1/2024. This revision also simplifies and clarifies the language used to identify who is eligible for a personal needs allowance instead of the community standard." [ref=e179]:
+              - cell "10/2024" [ref=e180]:
+                - link "10/2024" [ref=e181] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=149605
+              - cell "The assistance standard for GA recipients living in the community increases to $350 effective 10/1/2024. This revision also simplifies and clarifies the language used to identify who is eligible for a personal needs allowance instead of the community standard." [ref=e182]
+            - row "12/2014 Removed WB. This program was suspended 12/1/14." [ref=e183]:
+              - cell "12/2014" [ref=e184]:
+                - link "12/2014" [ref=e185] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=129604
+              - cell "Removed WB. This program was suspended 12/1/14." [ref=e186]
+            - row "09/2012 update Food Support and FS to Supplemental Nutrition Assistance Program (SNAP) and FSET to SNAP E&T throughout. No policy was changed." [ref=e187]:
+              - cell "09/2012" [ref=e188]:
+                - link "09/2012" [ref=e189] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=128639
+              - cell "update Food Support and FS to Supplemental Nutrition Assistance Program (SNAP) and FSET to SNAP E&T throughout. No policy was changed." [ref=e190]
+      - paragraph [ref=e192]:
+        - link "Report this page" [ref=e194] [cursor=pointer]:
+          - /url: javascript:showRate()
+  - contentinfo [ref=e195]:
+    - generic [ref=e197]:
+      - generic [ref=e198]: © 2026 Minnesota Department of Human Services
+      - generic [ref=e199]:
+        - text: "Updated: 4/1/26 12:00 AM |"
+        - link "Accessibility" [ref=e200] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/accessibility.jsp
+        - text: "|"
+        - link "Terms/Policy" [ref=e201] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/index.jsp
+        - text: "|"
+        - link "Contact DHS" [ref=e202] [cursor=pointer]:
+          - /url: http://mn.gov/dhs/general-public/about-dhs/contact-us/index.jsp
+        - text: "|"
+        - link "Top of Page" [ref=e203] [cursor=pointer]:
+          - /url: "#top"
+        - text: "|"

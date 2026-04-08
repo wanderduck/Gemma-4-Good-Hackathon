@@ -1,0 +1,437 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Minnesota" [ref=e6] [cursor=pointer]:
+        - /url: https://mn.gov/dhs
+        - img "Minnesota" [ref=e7]
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - text: "Skip To:"
+          - link "Main Content" [ref=e10] [cursor=pointer]:
+            - /url: "#mainContent"
+          - text: "|"
+          - link "Subnavigation" [ref=e11] [cursor=pointer]:
+            - /url: "#divSidebar"
+          - text: "|"
+        - heading "Combined Manual" [level=1] [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "DHS Home" [ref=e16] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/
+          - link "PartnerLink Home" [ref=e17] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CountyLink_Home
+          - link "Manuals Home" [ref=e18] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=Manuals
+          - link "Bulletins" [ref=e19] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/general-public/publications-forms-resources/bulletins/
+          - link "Advanced Search " [ref=e20] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=manual_search&hdManualName=CombinedManual
+            - text: Advanced Search
+            - generic [ref=e21]: 
+        - generic [ref=e23]:
+          - textbox "keyword search..." [ref=e24]
+          - button "" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+    - generic [ref=e27]:
+      - button " Hide table of contents" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Hide table of contents
+      - generic [ref=e31]:
+        - generic [ref=e32]: 
+        - link "Combined Manual" [ref=e33] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual
+        - generic [ref=e34]: 
+        - link "13 - BASIS OF ELIGIBILITY" [ref=e35] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+        - generic [ref=e36]: 
+        - link "0013.15 - GA BASES OF ELIGIBILITY" [ref=e37] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001315
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: "Find in Table of Contents:"
+        - textbox "Find in Table of Contents:" [ref=e42]:
+          - /placeholder: Find in ToC...
+      - tree [ref=e43]:
+        - group [ref=e44]:
+          - treeitem "Future Changes" [level=1] [ref=e45]:
+            - link "Future Changes" [ref=e46] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0000
+          - treeitem "Guides and Handouts" [level=1] [ref=e47]:
+            - link "Guides and Handouts" [ref=e48] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_164726
+          - treeitem "01 - TABLE OF CONTENTS" [level=1] [ref=e49]:
+            - link "01 - TABLE OF CONTENTS" [ref=e50] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - treeitem "02 - GLOSSARY" [level=1] [ref=e51]:
+            - link "02 - GLOSSARY" [ref=e52] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - treeitem "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [level=1] [ref=e53]:
+            - link "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [ref=e54] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - treeitem "04 - EMERGENCIES" [level=1] [ref=e55]:
+            - link "04 - EMERGENCIES" [ref=e56] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+          - treeitem "05 - APPLICATIONS" [level=1] [ref=e57]:
+            - link "05 - APPLICATIONS" [ref=e58] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - treeitem "06 - DETERMINING FINANCIAL RESPONSIBILITY" [level=1] [ref=e59]:
+            - link "06 - DETERMINING FINANCIAL RESPONSIBILITY" [ref=e60] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - treeitem "07 - REPORTING" [level=1] [ref=e61]:
+            - link "07 - REPORTING" [ref=e62] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - treeitem "08 - CHANGES IN CIRCUMSTANCES" [level=1] [ref=e63]:
+            - link "08 - CHANGES IN CIRCUMSTANCES" [ref=e64] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - treeitem "09 - RECERTIFICATION" [level=1] [ref=e65]:
+            - link "09 - RECERTIFICATION" [ref=e66] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - treeitem "10 - VERIFICATION" [level=1] [ref=e67]:
+            - link "10 - VERIFICATION" [ref=e68] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - treeitem "11 - TECHNICAL ELIGIBILITY" [level=1] [ref=e69]:
+            - link "11 - TECHNICAL ELIGIBILITY" [ref=e70] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - treeitem "12 - PROCEDURAL ELIGIBILITY" [level=1] [ref=e71]:
+            - link "12 - PROCEDURAL ELIGIBILITY" [ref=e72] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - treeitem "13 - BASIS OF ELIGIBILITY" [expanded] [level=1] [ref=e73]:
+            - link "13 - BASIS OF ELIGIBILITY" [ref=e74] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+            - group [ref=e75]:
+              - treeitem "0013 - BASIS OF ELIGIBILITY" [level=2] [ref=e76]:
+                - link "0013 - BASIS OF ELIGIBILITY" [ref=e77] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0013
+              - treeitem "0013.03 - MFIP BASES OF ELIGIBILITY" [level=2] [ref=e78]:
+                - link "0013.03 - MFIP BASES OF ELIGIBILITY" [ref=e79] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001303
+              - treeitem "0013.03.03 - PREGNANT WOMAN BASIS - MFIP" [level=2] [ref=e80]:
+                - link "0013.03.03 - PREGNANT WOMAN BASIS - MFIP" [ref=e81] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00130303
+              - treeitem "0013.03.06 - MFIP BASIS - STATE-FUNDED CASH PORTION" [level=2] [ref=e82]:
+                - link "0013.03.06 - MFIP BASIS - STATE-FUNDED CASH PORTION" [ref=e83] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00130306
+              - treeitem "0013.03.09 MFIP HOUSING ASSISTANCE GRANT" [level=2] [ref=e84]:
+                - link "0013.03.09 MFIP HOUSING ASSISTANCE GRANT" [ref=e85] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00130309
+              - treeitem "0013.06 - SNAP CATEGORICAL ELIGIBILITY/INELIGIBILITY" [level=2] [ref=e86]:
+                - link "0013.06 - SNAP CATEGORICAL ELIGIBILITY/INELIGIBILITY" [ref=e87] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001306
+              - treeitem "0013.09 - MSA BASES OF ELIGIBILITY" [level=2] [ref=e88]:
+                - link "0013.09 - MSA BASES OF ELIGIBILITY" [ref=e89] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001309
+              - treeitem "0013.09.03 - MSA BASIS - AGE 65 OR OLDER" [level=2] [ref=e90]:
+                - link "0013.09.03 - MSA BASIS - AGE 65 OR OLDER" [ref=e91] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00130903
+              - treeitem "0013.09.06 - MSA BASIS - BLIND" [level=2] [ref=e92]:
+                - link "0013.09.06 - MSA BASIS - BLIND" [ref=e93] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00130906
+              - treeitem "0013.09.09 - MSA BASIS - DISABLED AGE 18 AND OLDER" [level=2] [ref=e94]:
+                - link "0013.09.09 - MSA BASIS - DISABLED AGE 18 AND OLDER" [ref=e95] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00130909
+              - treeitem "0013.15 - GA BASES OF ELIGIBILITY" [level=2] [ref=e96]:
+                - link "0013.15 - GA BASES OF ELIGIBILITY" [ref=e97] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001315
+              - treeitem "0013.15.03 - GA BASIS - PERMANENT ILLNESS" [level=2] [ref=e98]:
+                - link "0013.15.03 - GA BASIS - PERMANENT ILLNESS" [ref=e99] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131503
+              - treeitem "0013.15.06 - GA BASIS - TEMPORARY ILLNESS" [level=2] [ref=e100]:
+                - link "0013.15.06 - GA BASIS - TEMPORARY ILLNESS" [ref=e101] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131506
+              - treeitem "0013.15.09 - GA BASIS - CARING FOR ANOTHER PERSON" [level=2] [ref=e102]:
+                - link "0013.15.09 - GA BASIS - CARING FOR ANOTHER PERSON" [ref=e103] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131509
+              - treeitem "0013.15.12 - GA BASIS - PLACEMENT IN A FACILITY" [level=2] [ref=e104]:
+                - link "0013.15.12 - GA BASIS - PLACEMENT IN A FACILITY" [ref=e105] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131512
+              - treeitem "0013.15.18 - GA BASIS - UNEMPLOYABLE" [level=2] [ref=e106]:
+                - link "0013.15.18 - GA BASIS - UNEMPLOYABLE" [ref=e107] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131518
+              - treeitem "0013.15.24 - GA BASIS - DD/MI" [level=2] [ref=e108]:
+                - link "0013.15.24 - GA BASIS - DD/MI" [ref=e109] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131524
+              - treeitem "0013.15.27 - GA BASIS, SSD/SSI APPLICATION/APPEAL PENDING" [level=2] [ref=e110]:
+                - link "0013.15.27 - GA BASIS, SSD/SSI APPLICATION/APPEAL PENDING" [ref=e111] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131527
+              - treeitem "0013.15.30 - GA BASIS - ADVANCED AGE" [level=2] [ref=e112]:
+                - link "0013.15.30 - GA BASIS - ADVANCED AGE" [ref=e113] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131530
+              - treeitem "0013.15.33 - GA BASIS - DISPLACED HOMEMAKERS" [level=2] [ref=e114]:
+                - link "0013.15.33 - GA BASIS - DISPLACED HOMEMAKERS" [ref=e115] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131533
+              - treeitem "0013.15.39 - GA BASIS - PERFORMING COURT ORDERED SERVICES" [level=2] [ref=e116]:
+                - link "0013.15.39 - GA BASIS - PERFORMING COURT ORDERED SERVICES" [ref=e117] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131539
+              - treeitem "0013.15.42 - GA BASIS - LEARNING DISABLED" [level=2] [ref=e118]:
+                - link "0013.15.42 - GA BASIS - LEARNING DISABLED" [ref=e119] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131542
+              - treeitem "0013.15.48 - GA BASIS - ENGLISH NOT PRIMARY LANGUAGE" [level=2] [ref=e120]:
+                - link "0013.15.48 - GA BASIS - ENGLISH NOT PRIMARY LANGUAGE" [ref=e121] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131548
+              - treeitem "0013.15.51 - GA BASIS - PEOPLE UNDER AGE 18" [level=2] [ref=e122]:
+                - link "0013.15.51 - GA BASIS - PEOPLE UNDER AGE 18" [ref=e123] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131551
+              - treeitem "0013.15.54 - GA BASIS - DRUG/ALCOHOL ADDICTION" [level=2] [ref=e124]:
+                - link "0013.15.54 - GA BASIS - DRUG/ALCOHOL ADDICTION" [ref=e125] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131554
+              - treeitem "0013.18 - HSP BASES OF ELIGIBILITY" [level=2] [ref=e126]:
+                - link "0013.18 - HSP BASES OF ELIGIBILITY" [ref=e127] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001318
+              - treeitem "0013.18.03 - HSP BASIS - AGE 65 OR OLDER" [level=2] [ref=e128]:
+                - link "0013.18.03 - HSP BASIS - AGE 65 OR OLDER" [ref=e129] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131803
+              - treeitem "0013.18.06 - HSP BASIS - BLIND" [level=2] [ref=e130]:
+                - link "0013.18.06 - HSP BASIS - BLIND" [ref=e131] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131806
+              - treeitem "0013.18.09 - HSP BASIS - DISABLED AGE 18 AND OLDER" [level=2] [ref=e132]:
+                - link "0013.18.09 - HSP BASIS - DISABLED AGE 18 AND OLDER" [ref=e133] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131809
+              - treeitem "0013.18.12 - HSP BASIS - REQUIRES SERVICE IN RESIDENCE" [level=2] [ref=e134]:
+                - link "0013.18.12 - HSP BASIS - REQUIRES SERVICE IN RESIDENCE" [ref=e135] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131812
+              - treeitem "0013.18.15 - HSP BASIS - PERMANENT ILLNESS" [level=2] [ref=e136]:
+                - link "0013.18.15 - HSP BASIS - PERMANENT ILLNESS" [ref=e137] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131815
+              - treeitem "0013.18.18 - HSP BASIS - TEMPORARY ILLNESS" [level=2] [ref=e138]:
+                - link "0013.18.18 - HSP BASIS - TEMPORARY ILLNESS" [ref=e139] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131818
+              - treeitem "0013.18.21 - HSP BASIS - UNEMPLOYABLE" [level=2] [ref=e140]:
+                - link "0013.18.21 - HSP BASIS - UNEMPLOYABLE" [ref=e141] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131821
+              - treeitem "0013.18.24 - HSP BASIS - DD/MI" [level=2] [ref=e142]:
+                - link "0013.18.24 - HSP BASIS - DD/MI" [ref=e143] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131824
+              - treeitem "0013.18.27 - HSP BASIS - SSD/SSI APPL/APPEAL PEND" [level=2] [ref=e144]:
+                - link "0013.18.27 - HSP BASIS - SSD/SSI APPL/APPEAL PEND" [ref=e145] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131827
+              - treeitem "0013.18.30 - HSP BASIS - ADVANCED AGE" [level=2] [ref=e146]:
+                - link "0013.18.30 - HSP BASIS - ADVANCED AGE" [ref=e147] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131830
+              - treeitem "0013.18.33 - HSP BASIS - LEARNING DISABLED" [level=2] [ref=e148]:
+                - link "0013.18.33 - HSP BASIS - LEARNING DISABLED" [ref=e149] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131833
+              - treeitem "0013.18.36 - HSP BASIS - DRUG/ALCOHOL ADDICTION" [level=2] [ref=e150]:
+                - link "0013.18.36 - HSP BASIS - DRUG/ALCOHOL ADDICTION" [ref=e151] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131836
+              - treeitem "0013.18.39 - HSP BASIS - TRANSITION FROM RESIDENTIAL TREATMENT" [level=2] [ref=e152]:
+                - link "0013.18.39 - HSP BASIS - TRANSITION FROM RESIDENTIAL TREATMENT" [ref=e153] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131839
+          - treeitem "14 - ASSISTANCE UNITS" [level=1] [ref=e154]:
+            - link "14 - ASSISTANCE UNITS" [ref=e155] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - treeitem "15 - ASSETS" [level=1] [ref=e156]:
+            - link "15 - ASSETS" [ref=e157] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - treeitem "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [level=1] [ref=e158]:
+            - link "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [ref=e159] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - treeitem "17 - DETERMINING GROSS INCOME" [level=1] [ref=e160]:
+            - link "17 - DETERMINING GROSS INCOME" [ref=e161] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - treeitem "18 - DETERMINING NET INCOME" [level=1] [ref=e162]:
+            - link "18 - DETERMINING NET INCOME" [ref=e163] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - treeitem "19 - GROSS INCOME TEST" [level=1] [ref=e164]:
+            - link "19 - GROSS INCOME TEST" [ref=e165] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - treeitem "20 - NET INCOME LIMITS" [level=1] [ref=e166]:
+            - link "20 - NET INCOME LIMITS" [ref=e167] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+          - treeitem "22 - BUDGETING AND BENEFIT DETERMINATION" [level=1] [ref=e168]:
+            - link "22 - BUDGETING AND BENEFIT DETERMINATION" [ref=e169] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - treeitem "23 - SPECIAL NEEDS PAYMENTS" [level=1] [ref=e170]:
+            - link "23 - SPECIAL NEEDS PAYMENTS" [ref=e171] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - treeitem "24 - PAYMENTS" [level=1] [ref=e172]:
+            - link "24 - PAYMENTS" [ref=e173] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - treeitem "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [level=1] [ref=e174]:
+            - link "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [ref=e175] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - treeitem "26 - NOTICES" [level=1] [ref=e176]:
+            - link "26 - NOTICES" [ref=e177] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - treeitem "27 - APPEALS" [level=1] [ref=e178]:
+            - link "27 - APPEALS" [ref=e179] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - treeitem "28 - EMPLOYMENT SERVICES" [level=1] [ref=e180]:
+            - link "28 - EMPLOYMENT SERVICES" [ref=e181] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - treeitem "29 - OTHER RELATED PROGRAMS" [level=1] [ref=e182]:
+            - link "29 - OTHER RELATED PROGRAMS" [ref=e183] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - treeitem "30 - REFUGEE ASSISTANCE PROGRAMS" [level=1] [ref=e184]:
+            - link "30 - REFUGEE ASSISTANCE PROGRAMS" [ref=e185] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - treeitem "31 - NON-CITIZEN GUIDANCE" [level=1] [ref=e186]:
+            - link "31 - NON-CITIZEN GUIDANCE" [ref=e187] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - heading "GA BASES OF ELIGIBILITY" [level=1] [ref=e190]
+        - paragraph [ref=e191]: "ISSUE DATE: 03/2026"
+      - paragraph [ref=e192]:
+        - text: "MFIP, SNAP, MSA, HSP:"
+        - text: No provisions.
+        - text: "GA:"
+        - text: "People age 18 or older have a basis of eligibility for GA if they meet the requirements in 1 of the following categories:"
+      - paragraph
+      - table "table" [ref=e193]:
+        - rowgroup [ref=e194]:
+          - row "● Permanent illness. See 0013.15.03 (GA Basis - Permanent Illness)." [ref=e195]:
+            - cell "●" [ref=e196]:
+              - paragraph [ref=e197]: ●
+            - cell "Permanent illness. See 0013.15.03 (GA Basis - Permanent Illness)." [ref=e198]:
+              - paragraph [ref=e199]:
+                - text: Permanent illness. See
+                - link "0013.15.03 (GA Basis - Permanent Illness)." [ref=e200] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131503
+          - row "● Temporary illness. See 0013.15.06 (GA Basis - Temporary Illness)." [ref=e201]:
+            - cell "●" [ref=e202]:
+              - paragraph [ref=e203]: ●
+            - cell "Temporary illness. See 0013.15.06 (GA Basis - Temporary Illness)." [ref=e204]:
+              - paragraph [ref=e205]:
+                - text: Temporary illness. See
+                - link "0013.15.06 (GA Basis - Temporary Illness)." [ref=e206] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131506
+          - row "● Needed in the home to care for another person. See 0013.15.09 (GA Basis - Caring for Another Person)." [ref=e207]:
+            - cell "●" [ref=e208]:
+              - paragraph [ref=e209]: ●
+            - cell "Needed in the home to care for another person. See 0013.15.09 (GA Basis - Caring for Another Person)." [ref=e210]:
+              - paragraph [ref=e211]:
+                - text: Needed in the home to care for another person. See
+                - link "0013.15.09 (GA Basis - Caring for Another Person)." [ref=e212] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131509
+          - row "● Placement in a Facility. See 0011.21 (Receipt of Other Assistance), 0013.15.12 (GA Basis – Placement in a Facility)." [ref=e213]:
+            - cell "●" [ref=e214]:
+              - paragraph [ref=e215]: ●
+            - cell "Placement in a Facility. See 0011.21 (Receipt of Other Assistance), 0013.15.12 (GA Basis – Placement in a Facility)." [ref=e216]:
+              - paragraph [ref=e217]:
+                - text: Placement in a Facility. See
+                - link "0011.21 (Receipt of Other Assistance)," [ref=e218] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001121
+                - link "0013.15.12 (GA Basis – Placement in a Facility)." [ref=e219] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131512
+          - row "● Unemployable. See 0013.15.18 (GA Basis - Unemployable)." [ref=e220]:
+            - cell "●" [ref=e221]:
+              - paragraph [ref=e222]: ●
+            - cell "Unemployable. See 0013.15.18 (GA Basis - Unemployable)." [ref=e223]:
+              - paragraph [ref=e224]:
+                - text: Unemployable. See
+                - link "0013.15.18 (GA Basis - Unemployable)." [ref=e225] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131518
+          - row "● Medically certified as having developmental disabilities or mental illness. See 0013.15.24 (GA Basis - DD/MI)." [ref=e226]:
+            - cell "●" [ref=e227]:
+              - paragraph [ref=e228]: ●
+            - cell "Medically certified as having developmental disabilities or mental illness. See 0013.15.24 (GA Basis - DD/MI)." [ref=e229]:
+              - paragraph [ref=e230]:
+                - text: Medically certified as having developmental disabilities or mental illness. See
+                - link "0013.15.24 (GA Basis - DD/MI)." [ref=e231] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131524
+          - row "● Have an application or an appeal pending for Social Security Disability or SSI. See 0013.15.27 (GA Basis, SSD/SSI Application/Appeal Pending)." [ref=e232]:
+            - cell "●" [ref=e233]:
+              - paragraph [ref=e234]: ●
+            - cell "Have an application or an appeal pending for Social Security Disability or SSI. See 0013.15.27 (GA Basis, SSD/SSI Application/Appeal Pending)." [ref=e235]:
+              - paragraph [ref=e236]:
+                - text: Have an application or an appeal pending for Social Security Disability or SSI. See
+                - link "0013.15.27 (GA Basis, SSD/SSI Application/Appeal Pending)." [ref=e237] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131527
+          - row "● Advanced age. See 0013.15.30 (GA Basis - Advanced Age)." [ref=e238]:
+            - cell "●" [ref=e239]:
+              - paragraph [ref=e240]: ●
+            - cell "Advanced age. See 0013.15.30 (GA Basis - Advanced Age)." [ref=e241]:
+              - paragraph [ref=e242]:
+                - text: Advanced age. See
+                - link "0013.15.30 (GA Basis - Advanced Age)." [ref=e243] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131530
+          - row "● Full-time student eligible for displaced homemaker services. See 0013.15.33 (GA Basis - Displaced Homemakers)." [ref=e244]:
+            - cell "●" [ref=e245]:
+              - paragraph [ref=e246]: ●
+            - cell "Full-time student eligible for displaced homemaker services. See 0013.15.33 (GA Basis - Displaced Homemakers)." [ref=e247]:
+              - paragraph [ref=e248]:
+                - text: Full-time student eligible for displaced homemaker services. See
+                - link "0013.15.33 (GA Basis - Displaced Homemakers)." [ref=e249] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131533
+          - row "● Performing court-ordered services. See 0013.15.39 (GA Basis - Performing Court Ordered Services)." [ref=e250]:
+            - cell "●" [ref=e251]:
+              - paragraph [ref=e252]: ●
+            - cell "Performing court-ordered services. See 0013.15.39 (GA Basis - Performing Court Ordered Services)." [ref=e253]:
+              - paragraph [ref=e254]:
+                - text: Performing court-ordered services. See
+                - link "0013.15.39 (GA Basis - Performing Court Ordered Services)." [ref=e255] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131539
+          - row "● Learning disabled. See 0013.15.42 (GA Basis - Learning Disabled)." [ref=e256]:
+            - cell "●" [ref=e257]:
+              - paragraph [ref=e258]: ●
+            - cell "Learning disabled. See 0013.15.42 (GA Basis - Learning Disabled)." [ref=e259]:
+              - paragraph [ref=e260]:
+                - text: Learning disabled. See
+                - link "0013.15.42 (GA Basis - Learning Disabled)." [ref=e261] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131542
+          - row "● High school students age 18 and older whose primary language is not English. See 0013.15.48 (GA Basis - English Not Primary Language)." [ref=e262]:
+            - cell "●" [ref=e263]:
+              - paragraph [ref=e264]: ●
+            - cell "High school students age 18 and older whose primary language is not English. See 0013.15.48 (GA Basis - English Not Primary Language)." [ref=e265]:
+              - paragraph [ref=e266]:
+                - text: High school students age 18 and older whose primary language is not English. See
+                - link "0013.15.48 (GA Basis - English Not Primary Language)" [ref=e267] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131548
+                - generic [ref=e268]: .
+          - row "● Drug/alcohol addiction. See 0013.15.54 (GA Basis - Drug/Alcohol Addiction)." [ref=e269]:
+            - cell "●" [ref=e270]:
+              - paragraph [ref=e271]: ●
+            - cell "Drug/alcohol addiction. See 0013.15.54 (GA Basis - Drug/Alcohol Addiction)." [ref=e272]:
+              - paragraph [ref=e273]:
+                - text: Drug/alcohol addiction. See
+                - link "0013.15.54 (GA Basis - Drug/Alcohol Addiction)." [ref=e274] [cursor=pointer]:
+                  - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131554
+      - paragraph
+      - paragraph [ref=e275]:
+        - text: People under age 18 who are emancipated or at least age 16 have a basis of eligibility for GA if they are not pregnant and not living with parent, stepparent, or legal guardian. See
+        - link "0013.15.51 (GA Basis - People Under Age 18)." [ref=e276] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00131551
+      - generic [ref=e277]:
+        - paragraph [ref=e278]: PREVIOUS REVISIONS
+        - table [ref=e279]:
+          - rowgroup [ref=e280]:
+            - row "Date Notes" [ref=e281]:
+              - columnheader "Date" [ref=e282]
+              - columnheader "Notes" [ref=e283]
+            - row "09/2016 in GA deletes the 5th bullet because living in a battered women's shelter is no longer a valid GA basis." [ref=e284]:
+              - cell "09/2016" [ref=e285]:
+                - link "09/2016" [ref=e286] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=129424
+              - cell "in GA deletes the 5th bullet because living in a battered women's shelter is no longer a valid GA basis." [ref=e287]
+            - row "12/2014 Removed WB. This program was suspended 12/1/14." [ref=e288]:
+              - cell "12/2014" [ref=e289]:
+                - link "12/2014" [ref=e290] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=128128
+              - cell "Removed WB. This program was suspended 12/1/14." [ref=e291]
+            - row "06/2012 in GA in the 1st paragraph deletes the 11th bullet because excessive travel time to job is no longer a basis for GA. This is based on 2011 Legislative changes." [ref=e292]:
+              - cell "06/2012" [ref=e293]:
+                - link "06/2012" [ref=e294] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=128127
+              - cell "in GA in the 1st paragraph deletes the 11th bullet because excessive travel time to job is no longer a basis for GA. This is based on 2011 Legislative changes." [ref=e295]
+      - paragraph [ref=e297]:
+        - link "Report this page" [ref=e299] [cursor=pointer]:
+          - /url: javascript:showRate()
+  - contentinfo [ref=e300]:
+    - generic [ref=e302]:
+      - generic [ref=e303]: © 2026 Minnesota Department of Human Services
+      - generic [ref=e304]:
+        - text: "Updated: 3/1/26 4:47 PM |"
+        - link "Accessibility" [ref=e305] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/accessibility.jsp
+        - text: "|"
+        - link "Terms/Policy" [ref=e306] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/index.jsp
+        - text: "|"
+        - link "Contact DHS" [ref=e307] [cursor=pointer]:
+          - /url: http://mn.gov/dhs/general-public/about-dhs/contact-us/index.jsp
+        - text: "|"
+        - link "Top of Page" [ref=e308] [cursor=pointer]:
+          - /url: "#top"
+        - text: "|"

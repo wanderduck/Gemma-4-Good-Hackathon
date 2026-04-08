@@ -1,0 +1,383 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Minnesota" [ref=e6] [cursor=pointer]:
+        - /url: https://mn.gov/dhs
+        - img "Minnesota" [ref=e7]
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - text: "Skip To:"
+          - link "Main Content" [ref=e10] [cursor=pointer]:
+            - /url: "#mainContent"
+          - text: "|"
+          - link "Subnavigation" [ref=e11] [cursor=pointer]:
+            - /url: "#divSidebar"
+          - text: "|"
+        - heading "Combined Manual" [level=1] [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "DHS Home" [ref=e16] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/
+          - link "PartnerLink Home" [ref=e17] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CountyLink_Home
+          - link "Manuals Home" [ref=e18] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=Manuals
+          - link "Bulletins" [ref=e19] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/general-public/publications-forms-resources/bulletins/
+          - link "Advanced Search " [ref=e20] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=manual_search&hdManualName=CombinedManual
+            - text: Advanced Search
+            - generic [ref=e21]: 
+        - generic [ref=e23]:
+          - textbox "keyword search..." [ref=e24]
+          - button "" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+    - generic [ref=e27]:
+      - button " Hide table of contents" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Hide table of contents
+      - generic [ref=e31]:
+        - generic [ref=e32]: 
+        - link "Combined Manual" [ref=e33] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual
+  - generic [ref=e35]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - text: "Find in Table of Contents:"
+        - textbox "Find in Table of Contents:" [ref=e38]:
+          - /placeholder: Find in ToC...
+      - tree [ref=e39]:
+        - group [ref=e40]:
+          - treeitem "Future Changes" [level=1] [ref=e41]:
+            - link "Future Changes" [ref=e42] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0000
+          - treeitem "Guides and Handouts" [level=1] [ref=e43]:
+            - link "Guides and Handouts" [ref=e44] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_164726
+          - treeitem "01 - TABLE OF CONTENTS" [level=1] [ref=e45]:
+            - link "01 - TABLE OF CONTENTS" [ref=e46] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - treeitem "02 - GLOSSARY" [level=1] [ref=e47]:
+            - link "02 - GLOSSARY" [ref=e48] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - treeitem "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [level=1] [ref=e49]:
+            - link "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [ref=e50] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - treeitem "04 - EMERGENCIES" [level=1] [ref=e51]:
+            - link "04 - EMERGENCIES" [ref=e52] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+          - treeitem "05 - APPLICATIONS" [level=1] [ref=e53]:
+            - link "05 - APPLICATIONS" [ref=e54] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - treeitem "06 - DETERMINING FINANCIAL RESPONSIBILITY" [level=1] [ref=e55]:
+            - link "06 - DETERMINING FINANCIAL RESPONSIBILITY" [ref=e56] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - treeitem "07 - REPORTING" [level=1] [ref=e57]:
+            - link "07 - REPORTING" [ref=e58] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - treeitem "08 - CHANGES IN CIRCUMSTANCES" [level=1] [ref=e59]:
+            - link "08 - CHANGES IN CIRCUMSTANCES" [ref=e60] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - treeitem "09 - RECERTIFICATION" [level=1] [ref=e61]:
+            - link "09 - RECERTIFICATION" [ref=e62] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - treeitem "10 - VERIFICATION" [level=1] [ref=e63]:
+            - link "10 - VERIFICATION" [ref=e64] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - treeitem "11 - TECHNICAL ELIGIBILITY" [level=1] [ref=e65]:
+            - link "11 - TECHNICAL ELIGIBILITY" [ref=e66] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - treeitem "12 - PROCEDURAL ELIGIBILITY" [level=1] [ref=e67]:
+            - link "12 - PROCEDURAL ELIGIBILITY" [ref=e68] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - treeitem "13 - BASIS OF ELIGIBILITY" [level=1] [ref=e69]:
+            - link "13 - BASIS OF ELIGIBILITY" [ref=e70] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+          - treeitem "14 - ASSISTANCE UNITS" [level=1] [ref=e71]:
+            - link "14 - ASSISTANCE UNITS" [ref=e72] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - treeitem "15 - ASSETS" [level=1] [ref=e73]:
+            - link "15 - ASSETS" [ref=e74] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - treeitem "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [level=1] [ref=e75]:
+            - link "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [ref=e76] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - treeitem "17 - DETERMINING GROSS INCOME" [level=1] [ref=e77]:
+            - link "17 - DETERMINING GROSS INCOME" [ref=e78] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - treeitem "18 - DETERMINING NET INCOME" [level=1] [ref=e79]:
+            - link "18 - DETERMINING NET INCOME" [ref=e80] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - treeitem "19 - GROSS INCOME TEST" [level=1] [ref=e81]:
+            - link "19 - GROSS INCOME TEST" [ref=e82] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - treeitem "20 - NET INCOME LIMITS" [level=1] [ref=e83]:
+            - link "20 - NET INCOME LIMITS" [ref=e84] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+          - treeitem "22 - BUDGETING AND BENEFIT DETERMINATION" [level=1] [ref=e85]:
+            - link "22 - BUDGETING AND BENEFIT DETERMINATION" [ref=e86] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - treeitem "23 - SPECIAL NEEDS PAYMENTS" [level=1] [ref=e87]:
+            - link "23 - SPECIAL NEEDS PAYMENTS" [ref=e88] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - treeitem "24 - PAYMENTS" [level=1] [ref=e89]:
+            - link "24 - PAYMENTS" [ref=e90] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - treeitem "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [level=1] [ref=e91]:
+            - link "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [ref=e92] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - treeitem "26 - NOTICES" [level=1] [ref=e93]:
+            - link "26 - NOTICES" [ref=e94] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - treeitem "27 - APPEALS" [level=1] [ref=e95]:
+            - link "27 - APPEALS" [ref=e96] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - treeitem "28 - EMPLOYMENT SERVICES" [level=1] [ref=e97]:
+            - link "28 - EMPLOYMENT SERVICES" [ref=e98] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - treeitem "29 - OTHER RELATED PROGRAMS" [level=1] [ref=e99]:
+            - link "29 - OTHER RELATED PROGRAMS" [ref=e100] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - treeitem "30 - REFUGEE ASSISTANCE PROGRAMS" [level=1] [ref=e101]:
+            - link "30 - REFUGEE ASSISTANCE PROGRAMS" [ref=e102] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - treeitem "31 - NON-CITIZEN GUIDANCE" [level=1] [ref=e103]:
+            - link "31 - NON-CITIZEN GUIDANCE" [ref=e104] [cursor=pointer]:
+              - /url: /main/idcplg/Service%20Array%20form.pdf?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - heading "COMBINED MANUAL" [level=1] [ref=e107]
+        - paragraph [ref=e108]
+      - table [ref=e110]:
+        - rowgroup [ref=e111]:
+          - row "0001 Table of Contents" [ref=e112]:
+            - rowheader "0001" [ref=e113]:
+              - link "0001" [ref=e114] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+            - cell "Table of Contents" [ref=e115]:
+              - link "Table of Contents" [ref=e116] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - row "0002 Glossary" [ref=e117]:
+            - rowheader "0002" [ref=e118]:
+              - link "0002" [ref=e119] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+            - cell "Glossary" [ref=e120]:
+              - link "Glossary" [ref=e121] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - row "0003 Client Responsibilities and Rights" [ref=e122]:
+            - rowheader "0003" [ref=e123]:
+              - link "0003" [ref=e124] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+            - cell "Client Responsibilities and Rights" [ref=e125]:
+              - link "Client Responsibilities and Rights" [ref=e126] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - row "0004 Emergencies" [ref=e127]:
+            - rowheader "0004" [ref=e128]:
+              - link "0004" [ref=e129] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+            - cell "Emergencies" [ref=e130]:
+              - link "Emergencies" [ref=e131] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+          - row "0005 Applications" [ref=e132]:
+            - rowheader "0005" [ref=e133]:
+              - link "0005" [ref=e134] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+            - cell "Applications" [ref=e135]:
+              - link "Applications" [ref=e136] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - row "0006 Determining Financial Responsibility" [ref=e137]:
+            - rowheader "0006" [ref=e138]:
+              - link "0006" [ref=e139] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+            - cell "Determining Financial Responsibility" [ref=e140]:
+              - link "Determining Financial Responsibility" [ref=e141] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - row "0007 Reporting" [ref=e142]:
+            - rowheader "0007" [ref=e143]:
+              - link "0007" [ref=e144] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+            - cell "Reporting" [ref=e145]:
+              - link "Reporting" [ref=e146] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - row "0008 Changes in Circumstances" [ref=e147]:
+            - rowheader "0008" [ref=e148]:
+              - link "0008" [ref=e149] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+            - cell "Changes in Circumstances" [ref=e150]:
+              - link "Changes in Circumstances" [ref=e151] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - row "0009 Recertification" [ref=e152]:
+            - rowheader "0009" [ref=e153]:
+              - link "0009" [ref=e154] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+            - cell "Recertification" [ref=e155]:
+              - link "Recertification" [ref=e156] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - row "0010 Verification" [ref=e157]:
+            - rowheader "0010" [ref=e158]:
+              - link "0010" [ref=e159] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+            - cell "Verification" [ref=e160]:
+              - link "Verification" [ref=e161] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - row "0011 Technical Eligibility" [ref=e162]:
+            - rowheader "0011" [ref=e163]:
+              - link "0011" [ref=e164] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+            - cell "Technical Eligibility" [ref=e165]:
+              - link "Technical Eligibility" [ref=e166] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - row "0012 Procedural Eligibility" [ref=e167]:
+            - rowheader "0012" [ref=e168]:
+              - link "0012" [ref=e169] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+            - cell "Procedural Eligibility" [ref=e170]:
+              - link "Procedural Eligibility" [ref=e171] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - row "0013 Basis of Eligibility" [ref=e172]:
+            - rowheader "0013" [ref=e173]:
+              - link "0013" [ref=e174] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+            - cell "Basis of Eligibility" [ref=e175]:
+              - link "Basis of Eligibility" [ref=e176] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+          - row "0014 Assistance Units" [ref=e177]:
+            - rowheader "0014" [ref=e178]:
+              - link "0014" [ref=e179] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+            - cell "Assistance Units" [ref=e180]:
+              - link "Assistance Units" [ref=e181] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - row "0015 Assets" [ref=e182]:
+            - rowheader "0015" [ref=e183]:
+              - link "0015" [ref=e184] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+            - cell "Assets" [ref=e185]:
+              - link "Assets" [ref=e186] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - row "0016 Income From People Not in the Unit" [ref=e187]:
+            - rowheader "0016" [ref=e188]:
+              - link "0016" [ref=e189] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+            - cell "Income From People Not in the Unit" [ref=e190]:
+              - link "Income From People Not in the Unit" [ref=e191] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - row "0017 Determining Gross Income" [ref=e192]:
+            - rowheader "0017" [ref=e193]:
+              - link "0017" [ref=e194] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+            - cell "Determining Gross Income" [ref=e195]:
+              - link "Determining Gross Income" [ref=e196] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - row "0018 Determining Net Income" [ref=e197]:
+            - rowheader "0018" [ref=e198]:
+              - link "0018" [ref=e199] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+            - cell "Determining Net Income" [ref=e200]:
+              - link "Determining Net Income" [ref=e201] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - row "0019 Gross Income Test" [ref=e202]:
+            - rowheader "0019" [ref=e203]:
+              - link "0019" [ref=e204] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+            - cell "Gross Income Test" [ref=e205]:
+              - link "Gross Income Test" [ref=e206] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - row "0020 Net Income Limits" [ref=e207]:
+            - rowheader "0020" [ref=e208]:
+              - link "0020" [ref=e209] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+            - cell "Net Income Limits" [ref=e210]:
+              - link "Net Income Limits" [ref=e211] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+          - row "0022 Budgeting and Benefit Determination" [ref=e212]:
+            - rowheader "0022" [ref=e213]:
+              - link "0022" [ref=e214] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+            - cell "Budgeting and Benefit Determination" [ref=e215]:
+              - link "Budgeting and Benefit Determination" [ref=e216] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - row "0023 Special Needs Payments" [ref=e217]:
+            - rowheader "0023" [ref=e218]:
+              - link "0023" [ref=e219] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+            - cell "Special Needs Payments" [ref=e220]:
+              - link "Special Needs Payments" [ref=e221] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - row "0024 Payments" [ref=e222]:
+            - rowheader "0024" [ref=e223]:
+              - link "0024" [ref=e224] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+            - cell "Payments" [ref=e225]:
+              - link "Payments" [ref=e226] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - row "0025 Benefit Adjustments and Recovery" [ref=e227]:
+            - rowheader "0025" [ref=e228]:
+              - link "0025" [ref=e229] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+            - cell "Benefit Adjustments and Recovery" [ref=e230]:
+              - link "Benefit Adjustments and Recovery" [ref=e231] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - row "0026 Notices" [ref=e232]:
+            - rowheader "0026" [ref=e233]:
+              - link "0026" [ref=e234] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+            - cell "Notices" [ref=e235]:
+              - link "Notices" [ref=e236] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - row "0027 Appeals" [ref=e237]:
+            - rowheader "0027" [ref=e238]:
+              - link "0027" [ref=e239] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+            - cell "Appeals" [ref=e240]:
+              - link "Appeals" [ref=e241] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - row "0028 Employment Services" [ref=e242]:
+            - rowheader "0028" [ref=e243]:
+              - link "0028" [ref=e244] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+            - cell "Employment Services" [ref=e245]:
+              - link "Employment Services" [ref=e246] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - row "0029 Other Related Programs" [ref=e247]:
+            - rowheader "0029" [ref=e248]:
+              - link "0029" [ref=e249] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+            - cell "Other Related Programs" [ref=e250]:
+              - link "Other Related Programs" [ref=e251] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - row "0030 Refugee Assistance Programs" [ref=e252]:
+            - rowheader "0030" [ref=e253]:
+              - link "0030" [ref=e254] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+            - cell "Refugee Assistance Programs" [ref=e255]:
+              - link "Refugee Assistance Programs" [ref=e256] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - row "0031 Non-Citizen Guidance" [ref=e257]:
+            - rowheader "0031" [ref=e258]:
+              - link "0031" [ref=e259] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+            - cell "Non-Citizen Guidance" [ref=e260]:
+              - link "Non-Citizen Guidance" [ref=e261] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+      - paragraph [ref=e263]:
+        - link "Report this page" [ref=e265] [cursor=pointer]:
+          - /url: javascript:showRate()
+  - contentinfo [ref=e266]:
+    - generic [ref=e268]:
+      - generic [ref=e269]: © 2026 Minnesota Department of Human Services
+      - generic [ref=e270]:
+        - text: "Updated: 8/5/22 11:16 AM |"
+        - link "Accessibility" [ref=e271] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/accessibility.jsp
+        - text: "|"
+        - link "Terms/Policy" [ref=e272] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/index.jsp
+        - text: "|"
+        - link "Contact DHS" [ref=e273] [cursor=pointer]:
+          - /url: http://mn.gov/dhs/general-public/about-dhs/contact-us/index.jsp
+        - text: "|"
+        - link "Top of Page" [ref=e274] [cursor=pointer]:
+          - /url: "#top"
+        - text: "|"

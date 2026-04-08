@@ -1,0 +1,217 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Minnesota" [ref=e6] [cursor=pointer]:
+        - /url: https://mn.gov/dhs
+        - img "Minnesota" [ref=e7]
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - text: "Skip To:"
+          - link "Main Content" [ref=e10] [cursor=pointer]:
+            - /url: "#mainContent"
+          - text: "|"
+          - link "Subnavigation" [ref=e11] [cursor=pointer]:
+            - /url: "#divSidebar"
+          - text: "|"
+        - heading "Combined Manual" [level=1] [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "DHS Home" [ref=e16] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/
+          - link "PartnerLink Home" [ref=e17] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CountyLink_Home
+          - link "Manuals Home" [ref=e18] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=Manuals
+          - link "Bulletins" [ref=e19] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/general-public/publications-forms-resources/bulletins/
+          - link "Advanced Search " [ref=e20] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=manual_search&hdManualName=CombinedManual
+            - text: Advanced Search
+            - generic [ref=e21]: 
+        - generic [ref=e23]:
+          - textbox "keyword search..." [ref=e24]
+          - button "" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+    - generic [ref=e27]:
+      - button " Hide table of contents" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Hide table of contents
+      - generic [ref=e31]:
+        - generic [ref=e32]: 
+        - link "Combined Manual" [ref=e33] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual
+        - generic [ref=e34]: 
+        - link "04 - EMERGENCIES" [ref=e35] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - text: "Find in Table of Contents:"
+        - textbox "Find in Table of Contents:" [ref=e40]:
+          - /placeholder: Find in ToC...
+      - tree [ref=e41]:
+        - group [ref=e42]:
+          - treeitem "Future Changes" [level=1] [ref=e43]:
+            - link "Future Changes" [ref=e44] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0000
+          - treeitem "Guides and Handouts" [level=1] [ref=e45]:
+            - link "Guides and Handouts" [ref=e46] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_164726
+          - treeitem "01 - TABLE OF CONTENTS" [level=1] [ref=e47]:
+            - link "01 - TABLE OF CONTENTS" [ref=e48] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - treeitem "02 - GLOSSARY" [level=1] [ref=e49]:
+            - link "02 - GLOSSARY" [ref=e50] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - treeitem "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [level=1] [ref=e51]:
+            - link "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [ref=e52] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - treeitem "04 - EMERGENCIES" [expanded] [level=1] [ref=e53]:
+            - link "04 - EMERGENCIES" [ref=e54] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+            - group [ref=e55]:
+              - treeitem "0004 - EMERGENCIES" [level=2] [ref=e56]:
+                - link "0004 - EMERGENCIES" [ref=e57] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0004
+              - treeitem "0004.01 - EMERGENCY GENERAL ASSISTANCE (EGA)" [level=2] [ref=e58]:
+                - link "0004.01 - EMERGENCY GENERAL ASSISTANCE (EGA)" [ref=e59] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000401
+              - treeitem "0004.04 - EXPEDITED SNAP" [level=2] [ref=e60]:
+                - link "0004.04 - EXPEDITED SNAP" [ref=e61] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000404
+              - treeitem "0004.48 - DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [level=2] [ref=e62]:
+                - link "0004.48 - DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [ref=e63] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_000448
+          - treeitem "05 - APPLICATIONS" [level=1] [ref=e64]:
+            - link "05 - APPLICATIONS" [ref=e65] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - treeitem "06 - DETERMINING FINANCIAL RESPONSIBILITY" [level=1] [ref=e66]:
+            - link "06 - DETERMINING FINANCIAL RESPONSIBILITY" [ref=e67] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - treeitem "07 - REPORTING" [level=1] [ref=e68]:
+            - link "07 - REPORTING" [ref=e69] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - treeitem "08 - CHANGES IN CIRCUMSTANCES" [level=1] [ref=e70]:
+            - link "08 - CHANGES IN CIRCUMSTANCES" [ref=e71] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - treeitem "09 - RECERTIFICATION" [level=1] [ref=e72]:
+            - link "09 - RECERTIFICATION" [ref=e73] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - treeitem "10 - VERIFICATION" [level=1] [ref=e74]:
+            - link "10 - VERIFICATION" [ref=e75] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - treeitem "11 - TECHNICAL ELIGIBILITY" [level=1] [ref=e76]:
+            - link "11 - TECHNICAL ELIGIBILITY" [ref=e77] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - treeitem "12 - PROCEDURAL ELIGIBILITY" [level=1] [ref=e78]:
+            - link "12 - PROCEDURAL ELIGIBILITY" [ref=e79] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - treeitem "13 - BASIS OF ELIGIBILITY" [level=1] [ref=e80]:
+            - link "13 - BASIS OF ELIGIBILITY" [ref=e81] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+          - treeitem "14 - ASSISTANCE UNITS" [level=1] [ref=e82]:
+            - link "14 - ASSISTANCE UNITS" [ref=e83] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - treeitem "15 - ASSETS" [level=1] [ref=e84]:
+            - link "15 - ASSETS" [ref=e85] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - treeitem "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [level=1] [ref=e86]:
+            - link "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [ref=e87] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - treeitem "17 - DETERMINING GROSS INCOME" [level=1] [ref=e88]:
+            - link "17 - DETERMINING GROSS INCOME" [ref=e89] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - treeitem "18 - DETERMINING NET INCOME" [level=1] [ref=e90]:
+            - link "18 - DETERMINING NET INCOME" [ref=e91] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - treeitem "19 - GROSS INCOME TEST" [level=1] [ref=e92]:
+            - link "19 - GROSS INCOME TEST" [ref=e93] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - treeitem "20 - NET INCOME LIMITS" [level=1] [ref=e94]:
+            - link "20 - NET INCOME LIMITS" [ref=e95] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+          - treeitem "22 - BUDGETING AND BENEFIT DETERMINATION" [level=1] [ref=e96]:
+            - link "22 - BUDGETING AND BENEFIT DETERMINATION" [ref=e97] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - treeitem "23 - SPECIAL NEEDS PAYMENTS" [level=1] [ref=e98]:
+            - link "23 - SPECIAL NEEDS PAYMENTS" [ref=e99] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - treeitem "24 - PAYMENTS" [level=1] [ref=e100]:
+            - link "24 - PAYMENTS" [ref=e101] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - treeitem "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [level=1] [ref=e102]:
+            - link "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [ref=e103] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - treeitem "26 - NOTICES" [level=1] [ref=e104]:
+            - link "26 - NOTICES" [ref=e105] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - treeitem "27 - APPEALS" [level=1] [ref=e106]:
+            - link "27 - APPEALS" [ref=e107] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - treeitem "28 - EMPLOYMENT SERVICES" [level=1] [ref=e108]:
+            - link "28 - EMPLOYMENT SERVICES" [ref=e109] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - treeitem "29 - OTHER RELATED PROGRAMS" [level=1] [ref=e110]:
+            - link "29 - OTHER RELATED PROGRAMS" [ref=e111] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - treeitem "30 - REFUGEE ASSISTANCE PROGRAMS" [level=1] [ref=e112]:
+            - link "30 - REFUGEE ASSISTANCE PROGRAMS" [ref=e113] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - treeitem "31 - NON-CITIZEN GUIDANCE" [level=1] [ref=e114]:
+            - link "31 - NON-CITIZEN GUIDANCE" [ref=e115] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - heading "04 - EMERGENCIES" [level=1] [ref=e118]
+        - paragraph [ref=e119]
+      - table [ref=e121]:
+        - rowgroup [ref=e122]:
+          - row "0004 EMERGENCIES" [ref=e123]:
+            - rowheader "0004" [ref=e124]:
+              - link "0004" [ref=e125] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_0004
+            - cell "EMERGENCIES" [ref=e126]:
+              - link "EMERGENCIES" [ref=e127] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_0004
+          - row "0004.01 EMERGENCY GENERAL ASSISTANCE (EGA)" [ref=e128]:
+            - rowheader "0004.01" [ref=e129]:
+              - link "0004.01" [ref=e130] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000401
+            - cell "EMERGENCY GENERAL ASSISTANCE (EGA)" [ref=e131]:
+              - link "EMERGENCY GENERAL ASSISTANCE (EGA)" [ref=e132] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000401
+          - row "0004.04 EXPEDITED SNAP" [ref=e133]:
+            - rowheader "0004.04" [ref=e134]:
+              - link "0004.04" [ref=e135] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000404
+            - cell "EXPEDITED SNAP" [ref=e136]:
+              - link "EXPEDITED SNAP" [ref=e137] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000404
+          - row "0004.48 DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [ref=e138]:
+            - rowheader "0004.48" [ref=e139]:
+              - link "0004.48" [ref=e140] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000448
+            - cell "DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [ref=e141]:
+              - link "DESTITUTE UNITS--MIGRANT/SEASONAL FARMWORKER" [ref=e142] [cursor=pointer]:
+                - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CM_000448
+      - paragraph [ref=e144]:
+        - link "Report this page" [ref=e146] [cursor=pointer]:
+          - /url: javascript:showRate()
+  - contentinfo [ref=e147]:
+    - generic [ref=e149]:
+      - generic [ref=e150]: © 2026 Minnesota Department of Human Services
+      - generic [ref=e151]:
+        - text: "Updated: 8/5/22 6:42 PM |"
+        - link "Accessibility" [ref=e152] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/accessibility.jsp
+        - text: "|"
+        - link "Terms/Policy" [ref=e153] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/index.jsp
+        - text: "|"
+        - link "Contact DHS" [ref=e154] [cursor=pointer]:
+          - /url: http://mn.gov/dhs/general-public/about-dhs/contact-us/index.jsp
+        - text: "|"
+        - link "Top of Page" [ref=e155] [cursor=pointer]:
+          - /url: "#top"
+        - text: "|"

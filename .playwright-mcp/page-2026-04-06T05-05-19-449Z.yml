@@ -1,0 +1,358 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Minnesota" [ref=e6] [cursor=pointer]:
+        - /url: https://mn.gov/dhs
+        - img "Minnesota" [ref=e7]
+      - generic [ref=e8]:
+        - paragraph [ref=e9]:
+          - text: "Skip To:"
+          - link "Main Content" [ref=e10] [cursor=pointer]:
+            - /url: "#mainContent"
+          - text: "|"
+          - link "Subnavigation" [ref=e11] [cursor=pointer]:
+            - /url: "#divSidebar"
+          - text: "|"
+        - heading "Combined Manual" [level=1] [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "DHS Home" [ref=e16] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/
+          - link "PartnerLink Home" [ref=e17] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CountyLink_Home
+          - link "Manuals Home" [ref=e18] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=Manuals
+          - link "Bulletins" [ref=e19] [cursor=pointer]:
+            - /url: https://mn.gov/dhs/general-public/publications-forms-resources/bulletins/
+          - link "Advanced Search " [ref=e20] [cursor=pointer]:
+            - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=manual_search&hdManualName=CombinedManual
+            - text: Advanced Search
+            - generic [ref=e21]: 
+        - generic [ref=e23]:
+          - textbox "keyword search..." [ref=e24]
+          - button "" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+    - generic [ref=e27]:
+      - button " Hide table of contents" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Hide table of contents
+      - generic [ref=e31]:
+        - generic [ref=e32]: 
+        - link "Combined Manual" [ref=e33] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual
+        - generic [ref=e34]: 
+        - link "20 - NET INCOME LIMITS" [ref=e35] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+        - generic [ref=e36]: 
+        - link "0020.12 - SNAP ASSISTANCE STANDARDS" [ref=e37] [cursor=pointer]:
+          - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002012
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: "Find in Table of Contents:"
+        - textbox "Find in Table of Contents:" [ref=e42]:
+          - /placeholder: Find in ToC...
+      - tree [ref=e43]:
+        - group [ref=e44]:
+          - treeitem "Future Changes" [level=1] [ref=e45]:
+            - link "Future Changes" [ref=e46] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0000
+          - treeitem "Guides and Handouts" [level=1] [ref=e47]:
+            - link "Guides and Handouts" [ref=e48] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=dhs16_164726
+          - treeitem "01 - TABLE OF CONTENTS" [level=1] [ref=e49]:
+            - link "01 - TABLE OF CONTENTS" [ref=e50] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0001
+          - treeitem "02 - GLOSSARY" [level=1] [ref=e51]:
+            - link "02 - GLOSSARY" [ref=e52] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0002
+          - treeitem "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [level=1] [ref=e53]:
+            - link "03 - CLIENT RESPONSIBILITIES AND RIGHTS" [ref=e54] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0003
+          - treeitem "04 - EMERGENCIES" [level=1] [ref=e55]:
+            - link "04 - EMERGENCIES" [ref=e56] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0004
+          - treeitem "05 - APPLICATIONS" [level=1] [ref=e57]:
+            - link "05 - APPLICATIONS" [ref=e58] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0005
+          - treeitem "06 - DETERMINING FINANCIAL RESPONSIBILITY" [level=1] [ref=e59]:
+            - link "06 - DETERMINING FINANCIAL RESPONSIBILITY" [ref=e60] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0006
+          - treeitem "07 - REPORTING" [level=1] [ref=e61]:
+            - link "07 - REPORTING" [ref=e62] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0007
+          - treeitem "08 - CHANGES IN CIRCUMSTANCES" [level=1] [ref=e63]:
+            - link "08 - CHANGES IN CIRCUMSTANCES" [ref=e64] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0008
+          - treeitem "09 - RECERTIFICATION" [level=1] [ref=e65]:
+            - link "09 - RECERTIFICATION" [ref=e66] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0009
+          - treeitem "10 - VERIFICATION" [level=1] [ref=e67]:
+            - link "10 - VERIFICATION" [ref=e68] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0010
+          - treeitem "11 - TECHNICAL ELIGIBILITY" [level=1] [ref=e69]:
+            - link "11 - TECHNICAL ELIGIBILITY" [ref=e70] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0011
+          - treeitem "12 - PROCEDURAL ELIGIBILITY" [level=1] [ref=e71]:
+            - link "12 - PROCEDURAL ELIGIBILITY" [ref=e72] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0012
+          - treeitem "13 - BASIS OF ELIGIBILITY" [level=1] [ref=e73]:
+            - link "13 - BASIS OF ELIGIBILITY" [ref=e74] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0013
+          - treeitem "14 - ASSISTANCE UNITS" [level=1] [ref=e75]:
+            - link "14 - ASSISTANCE UNITS" [ref=e76] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0014
+          - treeitem "15 - ASSETS" [level=1] [ref=e77]:
+            - link "15 - ASSETS" [ref=e78] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0015
+          - treeitem "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [level=1] [ref=e79]:
+            - link "16 - INCOME FROM PEOPLE NOT IN THE UNIT" [ref=e80] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0016
+          - treeitem "17 - DETERMINING GROSS INCOME" [level=1] [ref=e81]:
+            - link "17 - DETERMINING GROSS INCOME" [ref=e82] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0017
+          - treeitem "18 - DETERMINING NET INCOME" [level=1] [ref=e83]:
+            - link "18 - DETERMINING NET INCOME" [ref=e84] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0018
+          - treeitem "19 - GROSS INCOME TEST" [level=1] [ref=e85]:
+            - link "19 - GROSS INCOME TEST" [ref=e86] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0019
+          - treeitem "20 - NET INCOME LIMITS" [expanded] [level=1] [ref=e87]:
+            - link "20 - NET INCOME LIMITS" [ref=e88] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0020
+            - group [ref=e89]:
+              - treeitem "0020 - NET INCOME LIMITS" [level=2] [ref=e90]:
+                - link "0020 - NET INCOME LIMITS" [ref=e91] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0020
+              - treeitem "0020.03 - PEOPLE EXEMPT FROM NET INCOME LIMITS" [level=2] [ref=e92]:
+                - link "0020.03 - PEOPLE EXEMPT FROM NET INCOME LIMITS" [ref=e93] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002003
+              - treeitem "0020.06 - CHOOSING THE ASSISTANCE STANDARD TABLE" [level=2] [ref=e94]:
+                - link "0020.06 - CHOOSING THE ASSISTANCE STANDARD TABLE" [ref=e95] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002006
+              - treeitem "0020.09 - MFIP ASSISTANCE STANDARDS" [level=2] [ref=e96]:
+                - link "0020.09 - MFIP ASSISTANCE STANDARDS" [ref=e97] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002009
+              - treeitem "0020.12 - SNAP ASSISTANCE STANDARDS" [level=2] [ref=e98]:
+                - link "0020.12 - SNAP ASSISTANCE STANDARDS" [ref=e99] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002012
+              - treeitem "0020.18 - GA ASSISTANCE STANDARDS" [level=2] [ref=e100]:
+                - link "0020.18 - GA ASSISTANCE STANDARDS" [ref=e101] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002018
+              - treeitem "0020.21 - MSA ASSISTANCE STANDARDS" [level=2] [ref=e102]:
+                - link "0020.21 - MSA ASSISTANCE STANDARDS" [ref=e103] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002021
+              - treeitem "0020.22 - HSP ASSISTANCE STANDARDS" [level=2] [ref=e104]:
+                - link "0020.22 - HSP ASSISTANCE STANDARDS" [ref=e105] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002022
+              - treeitem "0020.24 - PERSONAL NEEDS ALLOWANCE" [level=2] [ref=e106]:
+                - link "0020.24 - PERSONAL NEEDS ALLOWANCE" [ref=e107] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_002024
+          - treeitem "22 - BUDGETING AND BENEFIT DETERMINATION" [level=1] [ref=e108]:
+            - link "22 - BUDGETING AND BENEFIT DETERMINATION" [ref=e109] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0022
+          - treeitem "23 - SPECIAL NEEDS PAYMENTS" [level=1] [ref=e110]:
+            - link "23 - SPECIAL NEEDS PAYMENTS" [ref=e111] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0023
+          - treeitem "24 - PAYMENTS" [level=1] [ref=e112]:
+            - link "24 - PAYMENTS" [ref=e113] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0024
+          - treeitem "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [level=1] [ref=e114]:
+            - link "25 - BENEFIT ADJUSTMENTS AND RECOVERY" [ref=e115] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0025
+          - treeitem "26 - NOTICES" [level=1] [ref=e116]:
+            - link "26 - NOTICES" [ref=e117] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0026
+          - treeitem "27 - APPEALS" [level=1] [ref=e118]:
+            - link "27 - APPEALS" [ref=e119] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0027
+          - treeitem "28 - EMPLOYMENT SERVICES" [level=1] [ref=e120]:
+            - link "28 - EMPLOYMENT SERVICES" [ref=e121] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0028
+          - treeitem "29 - OTHER RELATED PROGRAMS" [level=1] [ref=e122]:
+            - link "29 - OTHER RELATED PROGRAMS" [ref=e123] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0029
+          - treeitem "30 - REFUGEE ASSISTANCE PROGRAMS" [level=1] [ref=e124]:
+            - link "30 - REFUGEE ASSISTANCE PROGRAMS" [ref=e125] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0030
+          - treeitem "31 - NON-CITIZEN GUIDANCE" [level=1] [ref=e126]:
+            - link "31 - NON-CITIZEN GUIDANCE" [ref=e127] [cursor=pointer]:
+              - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=lp_cm_0031
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - heading "SNAP ASSISTANCE STANDARDS" [level=1] [ref=e130]
+        - paragraph [ref=e131]: "ISSUE DATE: 03/2026"
+      - paragraph [ref=e132]:
+        - text: "MFIP, MSA, GA, HSP:"
+        - text: No provisions.
+        - text: "SNAP:"
+        - text: Determine the proper assistance standard based on the size of the unit. When determining unit size, use the number of people in the unit in the payment month. See
+        - link "0014 (Assistance Units)." [ref=e133] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_0014
+        - text: Use the table below to determine the net income limit for the unit. Also see
+        - link "0019.06 (Gross Income Limits)." [ref=e134] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001906
+        - text: Non-categorically eligible units with an eligible elderly or disabled unit member, must have enough deductions to be at or below the 100% FPG limits below. This includes units with an eligible elderly or disabled unit member with income above 200% FPG. For the 200% FPG table, see
+        - link "0019.06 (Gross Income Limits)." [ref=e135] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_001906
+      - paragraph
+      - table "table" [ref=e136]:
+        - rowgroup [ref=e137]:
+          - row "UNIT SIZE ASSISTANCE STANDARD (100% of Federal Poverty Guidelines (FPG))" [ref=e138]:
+            - cell "UNIT SIZE" [ref=e139]:
+              - paragraph [ref=e140]: UNIT SIZE
+            - cell "ASSISTANCE STANDARD (100% of Federal Poverty Guidelines (FPG))" [ref=e141]:
+              - paragraph [ref=e142]: ASSISTANCE STANDARD (100% of Federal Poverty Guidelines (FPG))
+          - row "1 $1,305" [ref=e143]:
+            - cell "1" [ref=e144]:
+              - paragraph [ref=e145]: "1"
+            - cell "$1,305" [ref=e146]:
+              - paragraph [ref=e147]: $1,305
+          - row "2 $1,763" [ref=e148]:
+            - cell "2" [ref=e149]:
+              - paragraph [ref=e150]: "2"
+            - cell "$1,763" [ref=e151]:
+              - paragraph [ref=e152]: $1,763
+          - row "3 $2,221" [ref=e153]:
+            - cell "3" [ref=e154]:
+              - paragraph [ref=e155]: "3"
+            - cell "$2,221" [ref=e156]:
+              - paragraph [ref=e157]: $2,221
+          - row "4 $2,680" [ref=e158]:
+            - cell "4" [ref=e159]:
+              - paragraph [ref=e160]: "4"
+            - cell "$2,680" [ref=e161]:
+              - paragraph [ref=e162]: $2,680
+          - row "5 $3,138" [ref=e163]:
+            - cell "5" [ref=e164]:
+              - paragraph [ref=e165]: "5"
+            - cell "$3,138" [ref=e166]:
+              - paragraph [ref=e167]: $3,138
+          - row "6 $3,596" [ref=e168]:
+            - cell "6" [ref=e169]:
+              - paragraph [ref=e170]: "6"
+            - cell "$3,596" [ref=e171]:
+              - paragraph [ref=e172]: $3,596
+          - row "7 $4,055" [ref=e173]:
+            - cell "7" [ref=e174]:
+              - paragraph [ref=e175]: "7"
+            - cell "$4,055" [ref=e176]:
+              - paragraph [ref=e177]: $4,055
+          - row "8 $4,513" [ref=e178]:
+            - cell "8" [ref=e179]:
+              - paragraph [ref=e180]: "8"
+            - cell "$4,513" [ref=e181]:
+              - paragraph [ref=e182]: $4,513
+          - row "Each add'l member $459" [ref=e183]:
+            - cell "Each add'l member" [ref=e184]:
+              - paragraph [ref=e185]: Each add'l member
+            - cell "$459" [ref=e186]:
+              - paragraph [ref=e187]: $459
+      - paragraph
+      - paragraph [ref=e188]:
+        - text: To determine how to calculate the benefit level, see
+        - link "0022.12.01 (How to Calculate Benefit Level - SNAP/MSA/GRH)." [ref=e189] [cursor=pointer]:
+          - /url: https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=cm_00221201
+      - generic [ref=e190]:
+        - paragraph [ref=e191]: PREVIOUS REVISIONS
+        - table [ref=e192]:
+          - rowgroup [ref=e193]:
+            - row "Date Notes" [ref=e194]:
+              - columnheader "Date" [ref=e195]
+              - columnheader "Notes" [ref=e196]
+            - row "10/2025 in SNAP, updates made to the Monthly Assistance Standards." [ref=e197]:
+              - cell "10/2025" [ref=e198]:
+                - link "10/2025" [ref=e199] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=160644
+              - cell "in SNAP, updates made to the Monthly Assistance Standards." [ref=e200]
+            - row "05/2025 in SNAP, updates language for clarification due to substantial lottery and gambling winnings policy." [ref=e201]:
+              - cell "05/2025" [ref=e202]:
+                - link "05/2025" [ref=e203] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=154966
+              - cell "in SNAP, updates language for clarification due to substantial lottery and gambling winnings policy." [ref=e204]
+            - row "10/2024 in SNAP updates made to the Monthly Assistance Standards." [ref=e205]:
+              - cell "10/2024" [ref=e206]:
+                - link "10/2024" [ref=e207] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=149604
+              - cell "in SNAP updates made to the Monthly Assistance Standards." [ref=e208]
+            - row "10/2023 in SNAP updates the Monthly Assistance Standards." [ref=e209]:
+              - cell "10/2023" [ref=e210]:
+                - link "10/2023" [ref=e211] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=139467
+              - cell "in SNAP updates the Monthly Assistance Standards." [ref=e212]
+            - row "10/2022 in SNAP updates gross income limit amounts due to annual COLA" [ref=e213]:
+              - cell "10/2022" [ref=e214]:
+                - link "10/2022" [ref=e215] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131615
+              - cell "in SNAP updates gross income limit amounts due to annual COLA" [ref=e216]
+            - row "08/2022 in SNAP updates gross income limits for units with at least 1 elderly and/or disabled member with income above 200 % of FPG." [ref=e217]:
+              - cell "08/2022" [ref=e218]:
+                - link "08/2022" [ref=e219] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131613
+              - cell "in SNAP updates gross income limits for units with at least 1 elderly and/or disabled member with income above 200 % of FPG." [ref=e220]
+            - row "10/2021 in SNAP updates the Assistance Standards to reflect COLA changes." [ref=e221]:
+              - cell "10/2021" [ref=e222]:
+                - link "10/2021" [ref=e223] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131612
+              - cell "in SNAP updates the Assistance Standards to reflect COLA changes." [ref=e224]
+            - row "10/2020 in SNAP updates the Assistance Standards." [ref=e225]:
+              - cell "10/2020" [ref=e226]:
+                - link "10/2020" [ref=e227] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131611
+              - cell "in SNAP updates the Assistance Standards." [ref=e228]
+            - row "10/2019 in SNAP updates the Assistance Standards." [ref=e229]:
+              - cell "10/2019" [ref=e230]:
+                - link "10/2019" [ref=e231] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131609
+              - cell "in SNAP updates the Assistance Standards." [ref=e232]
+            - row "10/2018 in SNAP updates Assistance Standards due to (FY) 2019 Cost-of-Living Adjustments (COLA) to SNAP." [ref=e233]:
+              - cell "10/2018" [ref=e234]:
+                - link "10/2018" [ref=e235] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131608
+              - cell "in SNAP updates Assistance Standards due to (FY) 2019 Cost-of-Living Adjustments (COLA) to SNAP." [ref=e236]
+            - row "10/2017 in SNAP updates the Assistance Standards due to the (FY) 2018 Cost-of-Living Adjustments (COLA) to the Supplemental Nutrition Assistance Program (SNAP)." [ref=e237]:
+              - cell "10/2017" [ref=e238]:
+                - link "10/2017" [ref=e239] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131607
+              - cell "in SNAP updates the Assistance Standards due to the (FY) 2018 Cost-of-Living Adjustments (COLA) to the Supplemental Nutrition Assistance Program (SNAP)." [ref=e240]
+            - row "10/2016 in SNAP updates the Assistance Standards." [ref=e241]:
+              - cell "10/2016" [ref=e242]:
+                - link "10/2016" [ref=e243] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131606
+              - cell "in SNAP updates the Assistance Standards." [ref=e244]
+            - row "10/2015 in SNAP updates the Assistance Standards." [ref=e245]:
+              - cell "10/2015" [ref=e246]:
+                - link "10/2015" [ref=e247] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131605
+              - cell "in SNAP updates the Assistance Standards." [ref=e248]
+            - row "10/2014 in SNAP updates the Assistance Standards." [ref=e249]:
+              - cell "10/2014" [ref=e250]:
+                - link "10/2014" [ref=e251] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131603
+              - cell "in SNAP updates the Assistance Standards." [ref=e252]
+            - row "10/2013 in SNAP updates the Assistance Standards." [ref=e253]:
+              - cell "10/2013" [ref=e254]:
+                - link "10/2013" [ref=e255] [cursor=pointer]:
+                  - /url: /main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&dID=131602
+              - cell "in SNAP updates the Assistance Standards." [ref=e256]
+      - paragraph [ref=e258]:
+        - link "Report this page" [ref=e260] [cursor=pointer]:
+          - /url: javascript:showRate()
+  - contentinfo [ref=e261]:
+    - generic [ref=e263]:
+      - generic [ref=e264]: © 2026 Minnesota Department of Human Services
+      - generic [ref=e265]:
+        - text: "Updated: 3/1/26 12:00 AM |"
+        - link "Accessibility" [ref=e266] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/accessibility.jsp
+        - text: "|"
+        - link "Terms/Policy" [ref=e267] [cursor=pointer]:
+          - /url: https://mn.gov/dhs/general-public/policies/index.jsp
+        - text: "|"
+        - link "Contact DHS" [ref=e268] [cursor=pointer]:
+          - /url: http://mn.gov/dhs/general-public/about-dhs/contact-us/index.jsp
+        - text: "|"
+        - link "Top of Page" [ref=e269] [cursor=pointer]:
+          - /url: "#top"
+        - text: "|"
