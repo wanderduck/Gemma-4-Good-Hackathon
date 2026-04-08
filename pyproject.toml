@@ -29,6 +29,7 @@ dependencies = [
     "pylibraft-cu12==26.2.*",
     "raft-dask-cu12==26.2.*",
     "cuvs-cu12==26.2.*",
+    "modal>=1.4.1",
 ]
 
 [tool.uv.sources]
