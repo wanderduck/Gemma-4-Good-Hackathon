@@ -84,6 +84,45 @@ def main():
                 count += len(docs)
             logger.info("Ingested %d county program chunks from %s", count, county_name)
 
+    # Ingest SAM.gov federal assistance listings
+    sam_dir = RAW_DIR / "sam_gov"
+    if sam_dir.exists() and any(sam_dir.glob("*.json")):
+        from navigator.rag.ingest import chunk_text, _make_id
+        count = 0
+        for sam_file in sorted(sam_dir.glob("*.json")):
+            listing = json.loads(sam_file.read_text())
+            text_parts = []
+            if listing.get("name"):
+                text_parts.append(listing["name"])
+            if listing.get("description"):
+                text_parts.append(listing["description"])
+            if listing.get("eligibility_summary"):
+                text_parts.append(f"Eligibility: {listing['eligibility_summary']}")
+            if listing.get("agency"):
+                text_parts.append(f"Agency: {listing['agency']}")
+            if listing.get("application_url"):
+                text_parts.append(f"More info: {listing['application_url']}")
+            full_text = "\n\n".join(text_parts)
+            chunks = chunk_text(full_text)
+            docs = []
+            for i, chunk in enumerate(chunks):
+                doc_id = _make_id(chunk, prefix=f"sam_{listing.get('cfda_number', sam_file.stem)}")
+                docs.append({
+                    "id": doc_id,
+                    "text": chunk,
+                    "metadata": {
+                        "jurisdiction": "federal",
+                        "category": listing.get("category", "general"),
+                        "program": listing.get("name", ""),
+                        "source": listing.get("application_url", "SAM.gov"),
+                        "cfda_number": listing.get("cfda_number", ""),
+                        "chunk_index": i,
+                    },
+                })
+            pipeline._add_docs(docs)
+            count += len(docs)
+        logger.info("Ingested %d SAM.gov federal listing chunks", count)
+
     # Ingest processed text files by jurisdiction
     text_dirs = {
         "federal": PROCESSED_DIR / "federal",

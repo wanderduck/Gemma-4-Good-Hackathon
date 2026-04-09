@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 packages = ["src/navigator", "src/app.py"]
 
 [project]
-name = "cert-x466-003"
+name = "navigator"
 version = "0.1.0"
 description = "Plain Language Government Navigator — Gemma 4 Good Hackathon"
 requires-python = ">=3.13, <3.14"

@@ -18,18 +18,25 @@ finetune_image = (
     modal.Image.debian_slim(python_version="3.12")
     .apt_install("git")
     .pip_install(
-        "unsloth",
+        "unsloth @ git+https://github.com/unslothai/unsloth.git",
         "trl",
         "peft",
         "accelerate",
         "bitsandbytes",
         "datasets",
-        "git+https://github.com/huggingface/transformers.git",
         "torch",
+        "torchvision",
         "sentencepiece",
         "protobuf",
+        "rich",
+		"unsloth_zoo @ git+https://github.com/unslothai/unsloth_zoo.git",
     )
-    .add_local_file("data/training/final.jsonl", remote_path="/data/final.jsonl", copy=True)
+    .pip_install(
+        # Install after unsloth so this overrides its transformers pin.
+        # Gemma 4 (gemma4 arch) requires unreleased transformers from git.
+        "git+https://github.com/huggingface/transformers.git",
+    )
+    .add_local_file("data/training/generated.jsonl", remote_path="/data/generated.jsonl", copy=True)
 )
 
 app = modal.App("navigator-finetune", image=finetune_image)
@@ -39,14 +46,14 @@ app = modal.App("navigator-finetune", image=finetune_image)
     gpu="A100-40GB",
     timeout=60 * MINUTES,
     volumes={"/output": output_vol},
+    secrets=[modal.Secret.from_name("huggingface")],
 )
 def finetune():
     """Run QLoRA fine-tuning with Unsloth on A100."""
     import json
     import torch
     from unsloth import FastLanguageModel
-    from trl import SFTTrainer
-    from transformers import TrainingArguments
+    from trl import SFTTrainer, SFTConfig
     from datasets import Dataset
 
     print(f"GPU: {torch.cuda.get_device_name(0)}")
@@ -59,7 +66,7 @@ def finetune():
         model_name="unsloth/gemma-4-E4B-it",
         max_seq_length=MAX_SEQ_LENGTH,
         load_in_4bit=True,
-        dtype=None,
+        dtype=None,  # Let Unsloth auto-select — explicit float16 causes OOM via upcasting
     )
 
     print(f"Model loaded: {torch.cuda.memory_allocated() / 1024**3:.2f} GB")
@@ -67,20 +74,21 @@ def finetune():
     model = FastLanguageModel.get_peft_model(
         model,
         r=16,
+        lora_alpha=16,  # alpha/r = 1.0 (proven stable for Gemma 4)
+        lora_dropout=0.0,
         target_modules=[
             "q_proj", "k_proj", "v_proj", "o_proj",
             "gate_proj", "up_proj", "down_proj",
         ],
-        lora_alpha=32,
-        lora_dropout=0,
         bias="none",
-        use_gradient_checkpointing="unsloth",
+        use_gradient_checkpointing="unsloth",  # ~30% VRAM savings
+        random_state=42,
     )
     model.print_trainable_parameters()
 
     # --- Load training data ---
     records = []
-    with open("/data/final.jsonl") as f:
+    with open("/data/generated.jsonl") as f:
         for line in f:
             line = line.strip()
             if line:
@@ -97,7 +105,9 @@ def finetune():
     print(f"Training examples: {len(dataset)}")
 
     # --- Train ---
-    training_args = TrainingArguments(
+    # Use SFTConfig (not TrainingArguments) — includes SFT-specific params.
+    # Don't set fp16/bf16 — Unsloth handles Gemma 4 precision internally.
+    training_args = SFTConfig(
         output_dir="/output/checkpoints",
         num_train_epochs=3,
         per_device_train_batch_size=2,
@@ -108,19 +118,19 @@ def finetune():
         logging_steps=5,
         save_steps=50,
         save_total_limit=2,
-        fp16=not torch.cuda.is_bf16_supported(),
-        bf16=torch.cuda.is_bf16_supported(),
         optim="adamw_8bit",
         seed=42,
         report_to="none",
+        dataset_num_proc=2,
+        max_seq_length=MAX_SEQ_LENGTH,
     )
 
     trainer = SFTTrainer(
         model=model,
         tokenizer=tokenizer,
         train_dataset=dataset,
+        dataset_text_field="text",
         args=training_args,
-        max_seq_length=MAX_SEQ_LENGTH,
     )
 
     print("Starting training...")
@@ -149,7 +159,7 @@ def finetune():
     gguf_filename = gguf_files[0] if gguf_files else "model.gguf"
 
     system_prompt = (
-        "You are a plain-language government benefits navigator for Minnesota. "
+        "You are NorthStar Navigator, a plain-language government benefits navigator for Minnesota. "
         "You help people understand which government assistance programs they may "
         "be eligible for based on their situation. Be warm, clear, and actionable. "
         "Always cite specific eligibility thresholds and application portals. "

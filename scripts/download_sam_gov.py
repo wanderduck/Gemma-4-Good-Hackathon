@@ -122,11 +122,41 @@ ALL_CATEGORIES = list(CATEGORY_KEYWORDS.keys())
 # Helpers
 # ---------------------------------------------------------------------------
 
+def _get_title(listing: dict) -> str:
+    return (listing.get("title") or listing.get("programTitle") or "").strip()
+
+
+def _get_objective(listing: dict) -> str:
+    overview = listing.get("overview") or {}
+    return (
+        overview.get("objective")
+        or overview.get("assistanceListingDescription")
+        or listing.get("objectives")
+        or listing.get("description")
+        or ""
+    ).strip()
+
+
+def _get_cfda(listing: dict) -> str:
+    return (listing.get("assistanceListingId") or listing.get("programNumber") or "").strip()
+
+
+def _get_agency(listing: dict) -> str:
+    fed_org = listing.get("federalOrganization") or {}
+    return (
+        fed_org.get("agency")
+        or fed_org.get("department")
+        or listing.get("agencyName")
+        or listing.get("organizationName")
+        or ""
+    ).strip()
+
+
 def _matches_category(listing: dict, category: str) -> bool:
     """Return True if the listing text matches any keyword for the category."""
     keywords = CATEGORY_KEYWORDS[category]
-    title = (listing.get("programTitle") or "").lower()
-    desc = (listing.get("objectives") or "").lower()
+    title = _get_title(listing).lower()
+    desc = _get_objective(listing).lower()
     text = f"{title} {desc}"
     return any(kw in text for kw in keywords)
 
@@ -147,15 +177,19 @@ def _extract_eligibility(listing: dict) -> str:
     """Pull eligibility text from the nested applicant/beneficiary structure."""
     parts: list[str] = []
 
-    # Direct eligibility field
+    # New API structure: eligibility is nested
     elig = listing.get("eligibility") or {}
     if isinstance(elig, dict):
         for key in ("applicant", "beneficiary", "credentials", "documentation"):
             val = elig.get(key)
-            if val and isinstance(val, str):
+            if isinstance(val, dict):
+                desc = val.get("description") or val.get("text") or ""
+                if desc.strip():
+                    parts.append(desc.strip())
+            elif isinstance(val, str) and val.strip():
                 parts.append(val.strip())
 
-    # Also check top-level eligibility prose fields that SAM uses
+    # Top-level eligibility prose fields
     for field in ("eligibilityRequirements", "applicantEligibility", "beneficiaryEligibility"):
         val = listing.get(field)
         if val and isinstance(val, str) and val.strip():
@@ -166,28 +200,24 @@ def _extract_eligibility(listing: dict) -> str:
 
 def _extract_application_url(listing: dict) -> str:
     """Extract the best application URL from the listing."""
-    # SAM.gov links the listing itself; programs may also have their own URL
-    cfda = listing.get("programNumber", "")
+    cfda = _get_cfda(listing)
+    # Check for program web page first
+    web_page = (listing.get("programWebPage") or "").strip()
+    if web_page:
+        return web_page
     if cfda:
-        # Canonical SAM.gov listing page URL
         return f"https://sam.gov/fal/{cfda}/view"
     return ""
 
 
 def _transform_listing(raw: dict) -> dict:
     """Transform a raw SAM.gov listing into our Program-compatible format."""
-    cfda = raw.get("programNumber", "").strip()
-    title = raw.get("programTitle", "").strip()
-    description = (raw.get("objectives") or raw.get("description") or "").strip()
-    agency = (
-        raw.get("agencyName")
-        or raw.get("organizationName")
-        or raw.get("department")
-        or ""
-    ).strip()
+    cfda = _get_cfda(raw)
+    title = _get_title(raw)
+    description = _get_objective(raw)
+    agency = _get_agency(raw)
 
     return {
-        # Program model fields
         "id": f"sam_gov_{cfda.replace('.', '_')}",
         "cfda_number": cfda,
         "name": title,
@@ -199,7 +229,6 @@ def _transform_listing(raw: dict) -> dict:
         "application_url": _extract_application_url(raw),
         "source": "SAM.gov Assistance Listings",
         "agency": agency,
-        # Preserve full raw data for ingestion / debugging
         "_raw": raw,
     }
 
@@ -289,8 +318,8 @@ def download_listings(
                 print(f"\n[error] Failed on page {page_number}: {exc}")
                 break
 
-            # SAM.gov wraps results in `assistanceListings`
-            listings: list[dict] = data.get("assistanceListings", [])
+            # SAM.gov wraps results in `assistanceListingsData`
+            listings: list[dict] = data.get("assistanceListingsData", data.get("assistanceListings", []))
 
             if total_records is None:
                 total_records = data.get("totalRecords", 0)
@@ -307,7 +336,7 @@ def download_listings(
                 if limit is not None and (saved + skipped) >= limit:
                     break
 
-                cfda = listing.get("programNumber", "").strip()
+                cfda = _get_cfda(listing)
                 if not cfda:
                     continue
 

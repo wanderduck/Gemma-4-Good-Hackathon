@@ -37,8 +37,8 @@ MANUAL_TOC = (
     "&RevisionSelectionMethod=LatestReleased&dDocName=CombinedManual"
 )
 
-# Section links use dDocName=cm_XXXXXX or dDocName=CM_XXXXXX
-SECTION_LINK_RE = re.compile(r"dDocName=(cm_[\w]+)", re.IGNORECASE)
+# Section links: dDocName=cm_XXXXXX or lp_cm_XXXX (chapter landing pages)
+SECTION_LINK_RE = re.compile(r"dDocName=((?:lp_)?cm_[\w]+)", re.IGNORECASE)
 
 # Section number patterns in link text: "0001", "0002.05", etc.
 SECTION_NUM_RE = re.compile(r"^\s*(\d[\d.]*)\s")
@@ -113,28 +113,14 @@ def _clean_text(text: str) -> str:
 # ---------------------------------------------------------------------------
 
 
-def extract_section_links(page: Page) -> list[dict]:
-    """Extract all CM section links from the TOC page."""
-    links = page.evaluate("""
-        () => {
-            const results = [];
-            document.querySelectorAll('a[href]').forEach(a => {
-                const href = a.getAttribute('href') || '';
-                const text = a.innerText.trim();
-                if (href && text) {
-                    results.push({href: href, text: text});
-                }
-            });
-            return results;
-        }
-    """)
-
+def _links_to_sections(links: list[dict]) -> list[dict]:
+    """Convert raw link dicts to section dicts, filtering for CM links."""
     seen: set[str] = set()
     sections: list[dict] = []
 
     for link in links:
-        href = link["href"]
-        text = link["text"]
+        href = link.get("href", "")
+        text = link.get("text", "")
 
         m = SECTION_LINK_RE.search(href)
         if not m:
@@ -150,7 +136,7 @@ def extract_section_links(page: Page) -> list[dict]:
         if num_match:
             label = num_match.group(1).replace(".", "_")
         else:
-            label = doc_name.lower().replace("cm_", "")
+            label = doc_name.lower().replace("cm_", "").replace("lp_", "")
 
         # Build full URL
         full_url = (
@@ -166,6 +152,85 @@ def extract_section_links(page: Page) -> list[dict]:
         })
 
     return sections
+
+
+def extract_section_links(page: Page) -> list[dict]:
+    """Extract all CM section links from the TOC page."""
+    links = page.evaluate("""
+        () => {
+            const results = [];
+            document.querySelectorAll('a[href]').forEach(a => {
+                const href = a.getAttribute('href') || '';
+                const text = a.innerText.trim();
+                if (href && text) {
+                    results.push({href: href, text: text});
+                }
+            });
+            return results;
+        }
+    """)
+    return _links_to_sections(links)
+
+
+def load_cached_toc() -> list[dict]:
+    """Load section links from a previously cached TOC JSON file."""
+    import json
+
+    # Prefer fresh TOC from export_dhs_cookies.py
+    fresh = OUTPUT_DIR / "_toc_fresh.json"
+    if fresh.exists():
+        links = json.loads(fresh.read_text())
+        return _links_to_sections(links)
+
+    # Fall back to old cached TOC (double-encoded)
+    cached = OUTPUT_DIR / "_toc_all_links.json"
+    if not cached.exists():
+        return []
+    raw = cached.read_text()
+    links = json.loads(json.loads(raw))
+    return _links_to_sections(links)
+
+
+def expand_chapter_pages(page: Page, chapters: list[dict], delay: float) -> list[dict]:
+    """For lp_cm_XXXX chapter pages, fetch them and extract subsection links."""
+    all_sections = []
+    for ch in chapters:
+        if not ch["doc_name"].lower().startswith("lp_cm_"):
+            all_sections.append(ch)
+            continue
+
+        log.info("Expanding chapter: %s — %s", ch["doc_name"], ch["title"][:60])
+        try:
+            page.goto(ch["url"], wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(2000)
+        except Exception as e:
+            log.warning("  Cannot load chapter page %s: %s", ch["doc_name"], e)
+            # Still include the chapter page itself
+            all_sections.append(ch)
+            continue
+
+        # Check for bot challenge
+        body_text = ""
+        try:
+            body_text = page.query_selector("body").inner_text()[:200]
+        except Exception:
+            pass
+        if "solve this captcha" in body_text.lower() or "your activity and behavior" in body_text.lower():
+            log.warning("  Bot challenge on chapter page %s — skipping expansion", ch["doc_name"])
+            all_sections.append(ch)
+            continue
+
+        sub_sections = extract_section_links(page)
+        if sub_sections:
+            log.info("  Found %d subsections in %s", len(sub_sections), ch["doc_name"])
+            all_sections.extend(sub_sections)
+        else:
+            # No subsections found, keep the chapter page itself
+            all_sections.append(ch)
+
+        time.sleep(delay)
+
+    return all_sections
 
 
 # ---------------------------------------------------------------------------
@@ -185,9 +250,9 @@ def scrape_section(page: Page, section: dict, output_dir: Path, delay: float) ->
     log.info("FETCH %s — %s", safe_label, section["title"][:60])
 
     try:
-        page.goto(section["url"], wait_until="networkidle", timeout=30000)
+        page.goto(section["url"], wait_until="domcontentloaded", timeout=30000)
         # Extra wait for JS-rendered content
-        page.wait_for_timeout(1500)
+        page.wait_for_timeout(2000)
     except Exception as e:
         log.error("  Navigation failed for %s: %s", section["url"], e)
         return False
@@ -255,6 +320,9 @@ def main() -> None:
     log.info("TOC:        %s", MANUAL_TOC)
     log.info("Output dir: %s", out_dir)
 
+    # Check for exported cookies from export_dhs_cookies.py
+    cookie_file = OUTPUT_DIR / "_cookies.json"
+
     with sync_playwright() as pw:
         browser: Browser = pw.chromium.launch(headless=not args.headed)
         context = browser.new_context(
@@ -264,26 +332,49 @@ def main() -> None:
             ),
             viewport={"width": 1280, "height": 800},
         )
+
+        # Load cookies if available (bypasses Radware CAPTCHA)
+        if cookie_file.exists():
+            import json as _json
+            cookies = _json.loads(cookie_file.read_text())
+            context.add_cookies(cookies)
+            log.info("Loaded %d cookies from %s", len(cookies), cookie_file.name)
+
         page = context.new_page()
 
-        # Step 1: Load TOC
+        # Step 1: Load TOC (live, fresh cached, or old cached fallback)
         log.info("Loading TOC page...")
+        sections = []
         try:
-            page.goto(MANUAL_TOC, wait_until="networkidle", timeout=30000)
-            page.wait_for_timeout(2000)
+            page.goto(MANUAL_TOC, wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(3000)
+
+            # Check for bot challenge
+            body_text = page.query_selector("body").inner_text()[:300]
+            if "solve this captcha" in body_text.lower() or "your activity and behavior" in body_text.lower():
+                log.warning("Bot challenge detected on TOC page — falling back to cached TOC")
+            else:
+                sections = extract_section_links(page)
         except Exception as e:
-            log.error("Cannot load TOC page: %s", e)
-            browser.close()
-            raise SystemExit(1)
+            log.warning("Cannot load TOC page: %s — trying cached TOC", e)
 
-        # Step 2: Extract section links
-        sections = extract_section_links(page)
+        # Fallback to cached TOC
         if not sections:
-            log.error("No section links found. Page may have changed structure.")
-            browser.close()
-            raise SystemExit(1)
+            sections = load_cached_toc()
+            if sections:
+                log.info("Loaded %d sections from cached TOC", len(sections))
+            else:
+                log.error("No section links found (live or cached). Cannot proceed.")
+                browser.close()
+                raise SystemExit(1)
 
-        log.info("Found %d section links.", len(sections))
+        # Step 2: Expand chapter landing pages into subsections
+        chapters = [s for s in sections if s["doc_name"].lower().startswith("lp_cm_")]
+        if chapters:
+            log.info("Found %d chapter pages to expand...", len(chapters))
+            sections = expand_chapter_pages(page, sections, args.delay)
+
+        log.info("Total sections to scrape: %d", len(sections))
 
         # Filter by --sections if provided
         if target_sections:

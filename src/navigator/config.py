@@ -15,7 +15,7 @@ TRAINING_DIR = DATA_DIR / "training"
 
 # Ollama
 OLLAMA_BASE_URL = "http://localhost:11434"
-OLLAMA_MODEL = "gemma3:4b"
+OLLAMA_MODEL = "navigator"
 
 # Embeddings
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"

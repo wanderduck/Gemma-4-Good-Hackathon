@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Kaggle "Gemma 4 Good Hackathon" competition entry. The goal is to build a solution using Gemma 4 models that addresses a real-world challenge. Deadline: May 18, 2026.
+Kaggle "Gemma 4 Good Hackathon" competition entry: **NorthStar Navigator** — a plain-language government benefits navigator for Minnesota. Deadline: May 18, 2026.
 
 Deliverables: video demo (≤3 min), Kaggle writeup (≤1500 words), public code repo, live demo.
 
@@ -32,11 +32,12 @@ PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python uv run python src/app.py  # Launch
 ### Ollama
 
 ```bash
-ollama pull gemma3:4b              # Pull model for local testing
+ollama pull gemma3:4b              # Pull base model (fallback)
+ollama create navigator -f output/gguf/Modelfile  # Load fine-tuned GGUF into Ollama
 ollama list                        # Check installed models
 ```
 
-Model tag configured in `src/navigator/config.py` → `OLLAMA_MODEL`. Currently `gemma3:4b` (placeholder until Gemma 4 E4B GGUF is available).
+Model tag configured in `src/navigator/config.py` → `OLLAMA_MODEL`. Currently `navigator` (fine-tuned Gemma 4 E4B GGUF via QLoRA).
 
 ### Scraping & Training
 
@@ -53,14 +54,33 @@ python training/train_unsloth.py --dataset data/training/combined.jsonl  # QLoRA
 python training/export_gguf.py --model training/output/final             # Export to GGUF for Ollama
 ```
 
+### Modal Fine-Tuning (Cloud GPU)
+
+```bash
+modal run deploy/modal_finetune.py        # Unsloth QLoRA on A100 (preferred)
+modal run deploy/modal_finetune_plain.py  # Raw PEFT QLoRA on A100 (fallback)
+modal run deploy/modal_finetune_plain.py::convert_gguf  # Re-merge LoRA + GGUF export without retraining
+modal volume get navigator-finetune-output /gguf/ ./output/gguf/  # Download GGUF to local
+```
+
+### DHS Scraper Cookie Workflow
+
+DHS site uses Radware CAPTCHA that blocks all headless browsers. Export cookies from a headed session first:
+```bash
+PYTHONPATH=src uv run python scripts/export_dhs_cookies.py  # Opens headed browser, solve CAPTCHA, saves cookies
+PYTHONPATH=src uv run python scripts/scrape_dhs_manual.py   # Uses saved cookies automatically
+```
+
 ## Project Status
 
-- **Plain Language Government Navigator** — implementation complete, 75 tests passing
+- **NorthStar Navigator** (codename: L'Étoile Link) — implementation complete, 75 tests passing
   - Design spec: `docs/superpowers/specs/2026-04-05-plain-language-government-navigator-design.md`
   - Implementation plan: `docs/superpowers/plans/2026-04-05-plain-language-government-navigator.md`
   - Architecture: Three-stage pipeline (Intake → Eligibility → Response) with Gemma 4 E4B via Ollama
   - Prize targets: Main + Digital Equity + Safety & Trust + Ollama + Unsloth ($130K ceiling)
-  - Remaining: GGUF model conversion, data scraping, RunPod deployment for live demo
+  - Fine-tuning: QLoRA on A100 complete, GGUF q4_k_m exported, loaded into Ollama as `navigator`
+  - Data: 267 county programs, 515 SAM.gov federal listings scraped; DHS Combined Manual scraping in progress
+  - Remaining: RunPod/Modal deployment for live demo, competition deliverables (video, writeup)
 
 ## Project Structure
 
@@ -108,3 +128,8 @@ Navigator deps are in `[project.optional-dependencies] navigator` to avoid confl
 - ChromaDB requires `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python` env var (set in `tests/conftest.py`)
 - ChromaDB 1.5.5 `EmbeddingFunction` is a Protocol, not an abstract base class — adapter needs `name()`, `get_config()`, `build_from_config()`
 - Navigator implementation is in worktree `.claude/worktrees/navigator-implementation/` (branch: `worktree-navigator-implementation`)
+- **Gemma 4 ClippableLinear**: PEFT can't find LoRA targets because `Gemma4ClippableLinear` extends `nn.Module` not `nn.Linear`. Fix: patch `__bases__` post-load + add property delegates for `weight/bias/in_features/out_features` → `self.linear.*`. Unsloth handles this internally.
+- **SFTConfig not TrainingArguments**: Current TRL uses `SFTConfig` for SFT-specific params (`max_length`, `packing`, `max_seq_length`). `TrainingArguments` won't accept them.
+- **`torch_dtype` → `dtype`**: transformers git HEAD renamed the param in `from_pretrained()`. Use `dtype=torch.bfloat16`.
+- **SAM.gov API v1**: Response key is `assistanceListingsData` (not `assistanceListings`), CFDA in `assistanceListingId`, title in `title`, objective in `overview.objective`
+- **Modal volume paths**: Use leading `/` in `modal volume get` (e.g., `/gguf/` not `gguf/`)

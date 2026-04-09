@@ -1,4 +1,4 @@
-"""Gradio UI for the Plain Language Government Navigator."""
+"""Gradio UI for NorthStar Navigator."""
 
 import logging
 from collections.abc import Generator
@@ -76,10 +76,10 @@ def _format_sources(benefits_response) -> str:
 
 # Build the Gradio interface
 with gr.Blocks(
-    title="Plain Language Government Navigator",
+    title="NorthStar Navigator",
 ) as demo:
     gr.Markdown(
-        "# Plain Language Government Navigator\n"
+        "# NorthStar Navigator\n"
         "*Powered by Gemma 4 via Ollama - Your data never leaves this device*"
     )
 

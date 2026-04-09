@@ -1,4 +1,4 @@
-"""Modal deployment for the Plain Language Government Navigator.
+"""Modal deployment for NorthStar Navigator.
 
 Serves the Gradio UI + Ollama with Gemma model on a GPU instance.
 
